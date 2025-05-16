@@ -4,12 +4,17 @@
     <meta http-equiv="content-type"
         content="text/html;charset=UTF-8" />
     <head>
-
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("fzIEQ0_LsHEVgBPVE"); // Tu public key
+            })();
+        </script>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="theme-color" content="#000">
 
-        <title>Contact - Rino</title>
+        <title>Contact - thehomeceramics</title>
 
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="generator" content="MediaPressLite" />
@@ -42,7 +47,7 @@
 
             <div id="search-page">
                 <div class="container">
-                    <form action="https://rino.com.tr/en/search" method="get">
+                    <form action="# method="get">
                         <div class="form-group">
                             <label><input type="text" name="q"
                                     placeholder="Search?"
@@ -323,21 +328,20 @@
                             <div class="col-md-6">
                                 <address class="large">
                                     <div class="item">
-                                        <div class="head">RINO HEAD OFFICE</div>
+                                        <div class="head">OFICINA CENTRAL DE RINO</div>
                                         <a
                                             href="https://www.google.com/maps/dir/?api=1&amp;destination=39.4605161,%20-0.363311"
                                             class="more-br mapButtonLink"
                                             target="_blank"
                                             data-latitude="39.4605161"
-                                            data-longitude="-0.363311">Get
-                                            Directions</a>
+                                            data-longitude="-0.363311">Obtener
+                                            Direcciones</a>
                                         <ul>
-                                            <li class="adres">Küçükbakkalköy
-                                                Mahallesi Ali Ay Sokak No: 25
-                                                Aktifhan Plaza Ataşehir</li>
+                                            <li class="adres">Carrer de Pere Aleixandre, 22, BAJO 2, Quatre Carreres, 
+                                                46006 València</li>
                                            
                                             <li class="mail"><a
-                                                    href="mailto:info@rino.com.tr">bilal@thehomeceramics.com</a></li>
+                                                    href="mailto:bilal@thehomeceramics.com">bilal@thehomeceramics.com</a></li>
                                         </ul>
                                     </div><p>&nbsp;</p><div class="item">
                                         <div class="head">EXPORT</div>
@@ -346,18 +350,17 @@
                                             class="more-br mapButtonLink"
                                             target="_blank"
                                             data-latitude="39.4605161"
-                                            data-longitude="-0.363311">Get
-                                            Directions</a>
+                                            data-longitude="-0.363311">Obtener
+                                            Direcciones</a>
                                         <ul>
-                                            <li class="adres">Küçükbakkalköy
-                                                Mahallesi Ali Ay Sokak No: 25
-                                                Aktifhan Plaza Ataşehir</li>
+                                            <li class="adres">Carrer de Pere Aleixandre, 22, BAJO 2, Quatre Carreres, 
+                                                46006 València</li>
                                             <li class="tel"><a
-                                                    href="tel:+90 (216) 577 67 70">+90
+                                                    href="tel:+34 (216) 577 67 70">+90
                                                     (216) 577 67 70</a></li>
-                                            <li class="fax">0216 577 67 75</li>
+                                           
                                             <li class="mail"><a
-                                                    href="mailto:sales@rino.com.tr">sales@rino.com.tr</a></li>
+                                                    href="mailto:ismail@thehomeceramics.com">ismail@thehomeceramics.com</a></li>
                                         </ul>
                                     </div><p>&nbsp;</p> </address>
                             </div>
@@ -365,70 +368,73 @@
                       
                         <div class="form mt-5">
                             <h4>CONTÁCTANOS</h4>
-                            <form method="post">
-                                <input type="hidden" name="control"
-                                    value><script
-                                    src="../../www.google.com/recaptcha/apifef7.js?hl=es"
-                                    async defer></script> <div
-                                    class="form-group">
+                            <form id="contactForm">
+                                <input type="hidden" name="control" value>
+                                <div class="form-group">
                                     <label>
-                                        <input type="text" name="data[Nombre]"
-                                            class="only-text"
-                                            placeholder="Nombre*" required>
+                                        <input type="text" name="user_name" class="only-text" placeholder="Nombre*" required>
                                         <div class="invalid-feedback">
-                                            Este campo es obligatorio. </div>
+                                            Este campo es obligatorio.
+                                        </div>
                                     </label>
                                 </div>
                                 <div class="form-group">
                                     <label>
-                                        <input type="text" name="data[Apellido]"
-                                            class="only-text"
-                                            placeholder="Apellido*" required>
+                                        <input type="text" name="user_last" class="only-text" placeholder="Apellido*" required>
                                         <div class="invalid-feedback">
-                                            Este campo es obligatorio. </div>
+                                            Este campo es obligatorio.
+                                        </div>
                                     </label>
                                 </div>
                                 <div class="form-group">
                                     <label>
-                                        <input type="text" name="data[Teléfono]"
-                                            class="form-control telmask"
-                                            required>
+                                        <input type="text" name="phone" class="form-control telmask" required>
                                         <div class="invalid-feedback">
-                                            Este campo es obligatorio. </div>
+                                            Este campo es obligatorio.
+                                        </div>
                                     </label>
                                 </div>
                                 <div class="form-group">
                                     <label>
-                                        <input type="text" name="data[Correo]"
-                                            placeholder="Correo electrónico*" required>
+                                        <input type="email" name="user_email" placeholder="Correo electrónico*" required>
                                         <div class="invalid-feedback">
-                                            Este campo es obligatorio. </div>
+                                            Este campo es obligatorio.
+                                        </div>
                                     </label>
                                 </div>
                                 <div class="form-group">
                                     <label>
-                                        <textarea name="data[Mensaje]"
-                                            placeholder="Tu mensaje*" required></textarea>
+                                        <textarea name="message" placeholder="Tu mensaje*" required></textarea>
                                         <div class="invalid-feedback">
-                                            Este campo es obligatorio. </div>
+                                            Este campo es obligatorio.
+                                        </div>
                                     </label>
                                 </div>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="checkbox">
-                                        He leído el <a
-                                            href="clarification-text.html"
-                                            target="_blank">Texto de Aclaración</a> y el <a
-                                            href="privacy-policy.html"
-                                            target="_blank">Acuerdo de Confidencialidad</a>.
-                                    </label>
-                                </div>
+                                <div class="checkbox"></div>
                                 <div class="form-group">
-                                    <div class="g-recaptcha"
-                                        data-sitekey="6Ld-M9gbAAAAACieI31cuqR4xJ6NpyKKJvJ785rn"></div>
-                                    <button>Enviar</button>
+                                    <button type="submit">Enviar</button>
                                 </div>
                             </form>
+                        </div>
+                   
+                         <script>
+                            (function(){
+                                emailjs.init("fzIEQ0_LsHEVgBPVE"); // Reemplaza con tu User ID de EmailJS
+                            })();
+                        </script>
+                        
+                                    <script>
+                                    document.getElementById('contactForm').addEventListener('submit', function(event) {
+                                        event.preventDefault(); // Evita el envío tradicional del formulario
+                                    
+                                        emailjs.sendForm('service_xx1cjsy', 'template_6szi63f', this)
+                                        .then(function(response) {
+                                            alert("¡Suscripción exitosa!");
+                                        }, function(error) {
+                                            alert("Error al suscribirse: " + JSON.stringify(error));
+                                        });
+                                    });
+                                    </script>
                         </div>
                     </article>
                 </div>
