@@ -1,0 +1,174 @@
+
+{
+  "Metadata": {
+    "defaultTitle": "Azulejos de Porcelana de Lujo y Diseño Experto | TheHomeCeramics",
+    "templateTitle": "%s | TheHomeCeramics - Azulejos Premium",
+    "defaultDescription": "Descubra la exquisita colección de azulejos de porcelana premium de TheHomeCeramics. Ofrecemos elegancia atemporal, durabilidad incomparable y diseños únicos para suelos, paredes y proyectos arquitectónicos a medida. Eleve su espacio con nuestra cerámica de lujo.",
+    "keywords": ["azulejos de porcelana de lujo", "baldosas cerámicas premium", "azulejos de diseño", "azulejos para diseño de interiores", "pavimentos modernos", "revestimientos clásicos", "azulejos para reforma de baño", "azulejos para cocina", "láminas porcelánicas gran formato", "exposición de azulejos", "TheHomeCeramics", "azulejos duraderos", "soluciones elegantes en alicatado", "cerámica de alta gama", "PORCELANICO 60X120 MATE", "azulejo BRILLER CHOCO RUBIC", "PORCELANICO 60X120 BRILLO", "azulejo GRACIA AQUA RAINBOW", "PORCELANICO 60X120 CARVING GROOVE LIGHT", "PORCELANICO 60X120 MATE IN/PUT TERRAZA 1032", "PORCELANICO 60X120 STATUARIO BRILLO", "PORCELANICO 60X120 BABYCON ROCCIA LUPO"]
+  },
+  "NavLinks": {
+    "home": "Inicio",
+    "products": "Productos",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "Header": {
+    "companyName": "TheHomeCeramics",
+    "mobileMenuTitle": "Menú de Navegación",
+    "logoAlt": "Logotipo de TheHomeCeramics"
+  },
+  "HomePage": {
+    "metadata": {
+      "title": "Azulejos de Porcelana de Lujo para Interiores Elegantes | TheHomeCeramics",
+      "description": "Transforme su hogar o espacio comercial con exquisitos azulejos de porcelana de TheHomeCeramics. Explore nuestras colecciones destacadas y descubra diseños que fusionan arte con durabilidad perdurable para un ambiente verdaderamente sofisticado."
+    },
+    "hero": {
+      "title": "Elegancia Forjada en Porcelana",
+      "subtitle": "Descubra un lujo incomparable y un diseño atemporal. TheHomeCeramics ofrece una colección exclusiva de azulejos de porcelana para transformar su visión en realidad.",
+      "exploreButton": "Explorar Nuestra Colección",
+      "heroImage1Alt": "Elegante salón con pavimento de porcelánico premium",
+      "heroImage2Alt": "Diseño de baño lujoso con revestimiento de porcelánico efecto mármol",
+      "heroImage3Alt": "Cocina moderna mostrando encimeras de porcelánico duraderas y estilosas",
+      "heroImage4Alt": "Patio exterior chic con sofisticados adoquines de porcelánico"
+    },
+    "featuredCollection": {
+      "title": "Colecciones de Azulejos Destacadas",
+      "subtitle": "Selecciones exclusivas de nuestros mejores porcelánicos, que encarnan calidad y estilo.",
+      "viewAll": "Ver Todos los Productos"
+    },
+    "aboutUsTeaser": {
+      "titlePrefix": "Descubra",
+      "subtitle": "Creando belleza y calidad perdurable, un azulejo exquisito a la vez.",
+      "learnMoreButton": "Conocer Más Sobre Nosotros"
+    },
+    "natureInspiration": {
+      "sectionTitle": "¿QUIÉNES SOMOS?",
+      "headline": "UN REGALO DE LA NATURALEZA, REFINADO ARTÍSTICAMENTE PARA SU ESPACIO",
+      "paragraph1": "En TheHomeCeramics, nuestra filosofía de diseño se basa en el arte de la naturaleza. Elaboramos meticulosamente azulejos de porcelana de primera calidad que capturan la esencia del mármol, la piedra, la madera, el hormigón y los textiles, aportando belleza orgánica y texturas sofisticadas a sus espacios vitales.",
+      "paragraph2": "Fusionando tecnología avanzada con tendencias de diseño contemporáneas, TheHomeCeramics | Seramik Porselen ofrece soluciones innovadoras en revestimientos. Nuestra diversa gama de colores, patrones y grandes formatos (incluyendo 60x120, 30x60, 30x75, 30x90 cm) asegura armonía estética y excelencia funcional para cada necesidad arquitectónica.",
+      "detailsButton": "EXPLORE NUESTRA HISTORIA",
+      "image1Alt": "Elegante sala de estar mostrando azulejos de porcelana Hurrem y sofisticados sillones",
+      "image2Alt": "Exhibición artística de los productos de azulejos premium de TheHomeCeramics - inicio_quien_somos.jpg",
+      "image3Alt": "Una mirada al proceso de diseño o showroom de TheHomeCeramics - inicio_quien_somos_1.jpg"
+    }
+  },
+  "PRODUCTS_DATA": [
+    {
+      "id": "1",
+      "name": "PORCELÁNICO 60X120 MATE (RELIEVE) - BRILLER CHOCO RUBIC",
+      "description": "Eleve sus interiores con el PORCELÁNICO 60X120 MATE CON RELIEVE en el cautivador acabado Briller Choco Rubic. Este azulejo de gran formato combina una sofisticada superficie mate con un sutil relieve, ofreciendo una rica textura y profundidad visual. Perfecto para crear distinguidos muros y suelos modernos, sus cálidos tonos chocolate y su exclusivo patrón Rubic texturizado aportan un toque de elegancia contemporánea y durabilidad perdurable. Ideal para aplicaciones que buscan un atractivo único y de alta gama."
+    },
+    {
+      "id": "2",
+      "name": "PORCELÁNICO 60X120 BRILLO (RAINBOW) - GRACIA AQUA",
+      "description": "Ilumine su espacio con el PORCELÁNICO 60X120 BRILLO (RAINBOW) en el fascinante color Gracia Aqua. Este azulejo de gran formato presume de un acabado ultrabrillante que realza su vibrante tono aguamarina, mientras que el singular efecto Rainbow dispersa la luz creando un destello dinámico e iridiscente. Perfecto para crear impactantes paredes de acento, lujosos diseños de baño o sofisticados espacios comerciales, este azulejo ofrece una audaz declaración de elegancia moderna y un interés visual sin igual. Su resistente fabricación en porcelánico asegura una belleza duradera."
+    },
+    {
+      "id": "3",
+      "name": "PORCELÁNICO 60X120 CARVING GROOVE LIGHT",
+      "description": "Descubra la sofisticación táctil del PORCELÁNICO 60X120 CARVING GROOVE LIGHT. Este azulejo de gran formato presenta un innovador acabado \"carving\" (tallado) que crea sutiles relieves y juegos de luces, aportando profundidad y un carácter único a sus paredes y suelos. El tono Groove Light, elegante y luminoso, complementa diseños contemporáneos y minimalistas, añadiendo una textura refinada sin sobrecargar el espacio. Ideal para quienes buscan un porcelánico distintivo y de alta durabilidad para proyectos residenciales o comerciales de prestigio."
+    },
+    {
+      "id": "4",
+      "name": "PORCELÁNICO 60X120 MATE IN/OUT TERRAZA 1032",
+      "description": "Transforme sus espacios interiores y exteriores con el PORCELÁNICO 60X120 MATE IN/OUT TERRAZA 1032. Este versátil porcelánico de gran formato presenta un sofisticado acabado mate, ofreciendo una durabilidad excepcional y una estética moderna perfecta para diseños contemporáneos. Su idoneidad para aplicaciones tanto interiores como exteriores lo hace ideal para crear transiciones fluidas desde interiores a terrazas, proporcionando una solución de pavimento elegante y robusta que resiste los elementos mientras mantiene su aspecto refinado. Realce sus áreas de estar y terrazas con este azulejo premium y resistente."
+    },
+    {
+      "id": "5",
+      "name": "PORCELÁNICO 60X120 STATUARIO BRILLO - PEARL STATUARIO",
+      "description": "Logre una sofisticación atemporal con nuestro PORCELÁNICO 60X120 STATUARIO BRILLO - PEARL STATUARIO. Este azulejo de gran formato replica maravillosamente la elegancia clásica del mármol Statuario con su luminosa base blanco perla y delicadas vetas grises. El acabado ultrabrillante realza su atractivo lujoso, haciéndolo perfecto para crear impactantes paredes de acento, suelos opulentos e interiores refinados tanto en entornos residenciales como comerciales. Eleve su espacio con la belleza perdurable del mármol y la durabilidad superior del porcelánico."
+    },
+    {
+      "id": "6",
+      "name": "PORCELÁNICO 60X120 BABYCON ROCCIA LUPO",
+      "description": "Abrace la belleza cruda de la naturaleza con nuestro PORCELÁNICO 60X120 BABYCON ROCCIA LUPO. Este azulejo de porcelana de gran formato captura la esencia de la piedra Roccia Lupo, presentando detalles intrincados y una paleta rica y terrosa. Su textura Babycon añade una sutil dimensión táctil, perfecta para crear atmósferas sofisticadas y envolventes tanto en proyectos residenciales como comerciales. Ideal para aquellos que buscan un azulejo efecto piedra duradero que combine diseño moderno con un atractivo natural atemporal."
+    }
+  ],
+  "COMPANY_INFO": {
+    "name": "TheHomeCeramics",
+    "missionShort": "Proveer a clientes exigentes con los más exquisitos y duraderos azulejos de porcelana de lujo para diseños transformadores de interiores y exteriores de belleza y calidad incomparables.",
+    "mission": "Nuestra misión en TheHomeCeramics es capacitar a clientes exigentes de todo el mundo para crear espacios extraordinarios. Logramos esto proporcionando los azulejos de porcelana de lujo más exquisitos, duraderos y de origen sostenible, fusionando un diseño innovador con una calidad excepcional para convertir cada proyecto en una obra de arte atemporal.",
+    "values": ["Calidad Incomprometible", "Liderazgo en Diseño Innovador", "Enfoque Centrado en el Cliente", "Prácticas Sostenibles y Éticas", "Artesanía Artística"],
+    "expertise": "Con décadas de experiencia colectiva en la industria de la cerámica de alta gama, TheHomeCeramics sobresale en la obtención, selección y suministro de azulejos de porcelana premium. Reconocida por su estética superior, robusta durabilidad y fina artesanía, nuestra colección es meticulosamente seleccionada. Nuestro equipo de expertos supervisa activamente las tendencias globales de diseño para ofrecer soluciones de revestimiento que son tanto elegantemente atemporales como vanguardistas y contemporáneas, perfectas para una diversa gama de prestigiosas aplicaciones arquitectónicas."
+  },
+  "AboutPage": {
+    "metadata": {
+        "title": "Nuestra Historia y Artesanía en Porcelánicos | Sobre TheHomeCeramics",
+        "description": "Descubra la historia detrás de TheHomeCeramics. Conozca nuestra misión de entregar excepcionales azulejos de porcelana de lujo, nuestro compromiso con la artesanía de calidad, prácticas sostenibles y los valores fundamentales que impulsan nuestra pasión por el diseño de interiores exquisito."
+    },
+    "titlePrefix": "Sobre",
+    "subtitle": "Creando belleza y elegancia, un azulejo excepcional a la vez.",
+    "ourMissionImageAlt": "Espacio de trabajo moderno que ilustra la misión y el espíritu colaborativo de TheHomeCeramics.",
+    "ourMissionTitle": "Nuestra Misión: Redefiniendo Espacios",
+    "ourExpertiseTitle": "Nuestra Experiencia: El Arte del Porcelánico",
+    "coreValuesTitle": "Nuestros Valores Fundamentales: La Base de la Excelencia",
+    "teamTitle": "Los Artesanos y Expertos Detrás de los Azulejos",
+    "teamDescription": "Nuestro apasionado equipo de experimentados diseñadores, maestros artesanos y dedicados profesionales de servicio al cliente está comprometido a hacer realidad su visión única. Creemos que cada espacio, grandioso o íntimo, merece el toque transformador de lujo que solo los mejores azulejos de porcelana pueden impartir."
+  },
+  "ContactPage": {
+    "metadata": {
+        "title": "Contáctenos para Asesoría y Presupuestos de Porcelánico | TheHomeCeramics",
+        "description": "Póngase en contacto con TheHomeCeramics para obtener asesoramiento experto sobre azulejos de porcelana de lujo, presupuestos para proyectos o soporte dedicado. Nuestro equipo está listo para ayudarle a seleccionar los azulejos perfectos para su visión de diseño."
+    },
+    "title": "Conéctese con Nosotros",
+    "subtitle": "Nos apasiona ayudarle a encontrar los azulejos de porcelana perfectos para su prestigioso proyecto. ¡Contáctenos hoy!",
+    "formTitle": "Envíenos un Mensaje",
+    "contactInfoTitle": "Información de Contacto",
+    "emailUs": "Envíenos un Email",
+    "callUs": "Llámenos",
+    "visitUs": "Visite Nuestra Exposición",
+    "businessHoursTitle": "Horario Comercial",
+    "businessHours": {
+        "line1": "Lunes - Viernes: 9:00 AM - 6:00 PM",
+        "line2": "Sábado: 10:00 AM - 4:00 PM (Con Cita Previa)",
+        "line3": "Domingo: Cerrado"
+    },
+    "form": {
+      "successMessage": "¡Gracias por su mensaje! Nos pondremos en contacto con usted en breve.",
+      "validationFailed": "El envío del formulario falló. Por favor revise los campos resaltados e inténtelo de nuevo.",
+      "errors": {
+        "nameRequired": "El nombre completo debe tener al menos 2 caracteres.",
+        "emailInvalid": "Por favor ingrese una dirección de correo electrónico válida.",
+        "subjectRequired": "El asunto debe tener al menos 5 caracteres.",
+        "messageRequired": "Su mensaje debe contener al menos 10 caracteres."
+      }
+    }
+  },
+  "CONTACT_DETAILS": {
+    "email": "bilal@thehomeceramics.com, ismail@thehomeceramics.com",
+    "phone": "+34 625 05 27 53",
+    "address": "Carrer de Pere Aleixandre, 22, BAJO 2, Quatre Carreres, 46006 València"
+  },
+  "ProductsPage": {
+    "metadata": {
+        "title": "Compre Nuestra Colección Completa de Porcelánicos de Lujo | TheHomeCeramics",
+        "description": "Explore el catálogo completo de azulejos de porcelana de lujo de TheHomeCeramics. Descubra una extensa gama de estilos, acabados y tamaños, incluyendo láminas de gran formato, perfectas para su sofisticado proyecto de diseño interior residencial o comercial."
+    },
+    "title": "Nuestra Exquisita Colección de Azulejos",
+    "subtitle": "Eleve sus espacios con porcelánicos de diseño superior. Encuentre la inspiración en nuestra colección, sinónimo de elegancia perdurable y máxima resistencia."
+  },
+  "ProductCard": {
+    "materialLabel": "Material:",
+    "finishLabel": "Acabado:",
+    "sizeLabel": "Tamaño:",
+    "styleLabel": "Estilo:",
+    "viewDetailsButton": "Contáctanos por WhatsApp",
+    "whatsappInquiryPrefix": "Hola, estoy interesado en:"
+  },
+  "LanguageSwitcher": {
+    "changeLanguage": "Cambiar idioma",
+    "currentLanguage": {
+      "en": "Inglés",
+      "es": "Español",
+      "fr": "Francés"
+    }
+  },
+  "FeatureRemovedPage": {
+    "metadata": {
+      "title": "Función Eliminada | TheHomeCeramics",
+      "description": "Esta función ya no está disponible. Explore otras opciones y servicios de azulejos de lujo de TheHomeCeramics."
+    },
+    "title": "Función Eliminada",
+    "message": "Lo sentimos, pero esta función ya no está disponible. Por favor, explore nuestros otros servicios o contáctenos para obtener ayuda."
+  }
+}

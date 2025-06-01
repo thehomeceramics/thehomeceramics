@@ -1,0 +1,174 @@
+
+{
+  "Metadata": {
+    "defaultTitle": "Carreaux de Porcelaine de Luxe & Design d'Intérieur Expert | TheHomeCeramics",
+    "templateTitle": "%s | TheHomeCeramics - Carreaux Premium",
+    "defaultDescription": "Découvrez la collection exquise de carreaux de porcelaine haut de gamme de TheHomeCeramics. Nous offrons une élégance intemporelle, une durabilité inégalée et des designs uniques pour sols, murs et projets architecturaux sur mesure. Sublimez votre espace avec notre céramique de luxe.",
+    "keywords": ["carreaux de porcelaine de luxe", "carrelage céramique premium", "carreaux de designer", "carreaux design d'intérieur", "carrelage sol moderne", "carrelage mural classique", "carreaux rénovation salle de bain", "carreaux crédence cuisine", "dalles en porcelaine grand format", "showroom carrelage", "TheHomeCeramics", "carreaux durables", "solutions de carrelage élégantes", "céramique haut de gamme", "GRÈS CÉRAME 60X120 MAT", "carreau BRILLER CHOCO RUBIC", "GRÈS CÉRAME 60X120 BRILLANT", "carreau GRACIA AQUA RAINBOW", "GRÈS CÉRAME 60X120 CARVING GROOVE LIGHT", "GRÈS CÉRAME 60X120 MAT IN/PUT TERRAZA 1032", "GRÈS CÉRAME 60X120 STATUARIO BRILLANT", "GRÈS CÉRAME 60X120 BABYCON ROCCIA LUPO"]
+  },
+  "NavLinks": {
+    "home": "Accueil",
+    "products": "Produits",
+    "about": "À Propos",
+    "contact": "Contact"
+  },
+  "Header": {
+    "companyName": "TheHomeCeramics",
+    "mobileMenuTitle": "Menu de Navigation",
+    "logoAlt": "Logo de TheHomeCeramics"
+  },
+  "HomePage": {
+    "metadata": {
+      "title": "Carreaux de Porcelaine de Luxe pour Intérieurs Élégants | TheHomeCeramics",
+      "description": "Transformez votre maison ou espace commercial avec les carreaux de porcelaine exquis de TheHomeCeramics. Parcourez nos collections vedettes et découvrez des designs qui allient talent artistique et durabilité pour une ambiance véritablement sophistiquée."
+    },
+    "hero": {
+      "title": "L'Élégance Forgée en Porcelaine",
+      "subtitle": "Découvrez un luxe inégalé et un design intemporel. TheHomeCeramics propose une collection exclusive de carreaux de porcelaine pour transformer votre vision en réalité.",
+      "exploreButton": "Explorer Notre Collection",
+      "heroImage1Alt": "Salon élégant avec sol en carreaux de porcelaine haut de gamme",
+      "heroImage2Alt": "Salle de bain luxueuse avec revêtement mural en porcelaine effet marbre",
+      "heroImage3Alt": "Cuisine moderne présentant des plans de travail en porcelaine durables et stylés",
+      "heroImage4Alt": "Terrasse extérieure chic avec des pavés en porcelaine sophistiqués"
+    },
+    "featuredCollection": {
+      "title": "Collections de Carreaux Vedettes",
+      "subtitle": "Sélections exclusives de nos meilleurs carreaux en porcelaine, incarnant qualité et style.",
+      "viewAll": "Voir Tous les Produits"
+    },
+    "aboutUsTeaser": {
+      "titlePrefix": "Découvrez",
+      "subtitle": "Façonner la beauté et la qualité durable, un carreau exquis à la fois.",
+      "learnMoreButton": "En Savoir Plus Sur Nous"
+    },
+    "natureInspiration": {
+      "sectionTitle": "QUI SOMMES-NOUS ?",
+      "headline": "UN DON DE LA NATURE, RAFFINÉ ARTISTIQUEMENT POUR VOTRE ESPACE",
+      "paragraph1": "Chez TheHomeCeramics, notre philosophie de conception est ancrée dans l'art de la nature. Nous fabriquons méticuleusement des carreaux de porcelaine de première qualité qui capturent l'essence du marbre, de la pierre, du bois, du béton et des textiles, apportant une beauté organique et des textures sophistiquées à vos espaces de vie.",
+      "paragraph2": "Alliant technologie de pointe et tendances du design contemporain, TheHomeCeramics | Seramik Porselen offre des solutions de carrelage innovantes. Notre gamme variée de couleurs, de motifs et de grands formats (y compris 60x120, 30x60, 30x75, 30x90 cm) assure une harmonie esthétique et une excellence fonctionnelle pour chaque besoin architectural.",
+      "detailsButton": "EXPLOREZ NOTRE HISTOIRE",
+      "image1Alt": "Espace de vie élégant mettant en valeur des carreaux de porcelaine Hurrem et des fauteuils sophistiqués",
+      "image2Alt": "Présentation artistique des produits de carrelage haut de gamme de TheHomeCeramics - inicio_quien_somos.jpg",
+      "image3Alt": "Aperçu du processus de conception ou du showroom de TheHomeCeramics - inicio_quien_somos_1.jpg"
+    }
+  },
+  "PRODUCTS_DATA": [
+    {
+      "id": "1",
+      "name": "GRÈS CÉRAME 60X120 MAT (RELIEF) - BRILLER CHOCO RUBIC",
+      "description": "Sublimez vos intérieurs avec notre GRÈS CÉRAME 60X120 MAT (RELIEF) dans la finition captivante Briller Choco Rubic. Ce carreau grand format allie une surface mate sophistiquée à un relief subtil, offrant une texture riche et une profondeur visuelle. Parfait pour créer des murs et sols modernes distingués, ses tons chocolat chaleureux et son motif Rubic texturé unique apportent une touche d'élégance contemporaine et une durabilité exceptionnelle. Idéal pour des applications de caractère recherchant un attrait unique et haut de gamme."
+    },
+    {
+      "id": "2",
+      "name": "GRÈS CÉRAME 60X120 BRILLANT (RAINBOW) - GRACIA AQUA",
+      "description": "Illuminez votre espace avec le GRÈS CÉRAME 60X120 BRILLANT (RAINBOW) dans la teinte envoûtante Gracia Aqua. Ce carreau grand format arbore une finition ultra-brillante qui exalte sa couleur aqua vibrante, tandis que l'effet Rainbow unique disperse la lumière pour un chatoiement dynamique et irisé. Idéal pour créer des murs d'accent spectaculaires, des salles de bains luxueuses ou des espaces commerciaux sophistiqués, ce carreau affirme une élégance moderne audacieuse et un intérêt visuel incomparable. Sa fabrication en porcelaine durable garantit une beauté pérenne."
+    },
+    {
+      "id": "3",
+      "name": "GRÈS CÉRAME 60X120 CARVING GROOVE LIGHT",
+      "description": "Découvrez la sophistication tactile de notre GRÈS CÉRAME 60X120 CARVING GROOVE LIGHT. Ce carreau grand format présente une finition innovante \"carving\" (sculptée) qui crée de subtils reliefs et jeux de lumière, ajoutant profondeur et caractère unique à vos murs et sols. La teinte Groove Light, élégante et lumineuse, s'harmonise avec les designs contemporains et minimalistes, offrant une texture raffinée sans surcharger l'espace. Idéal pour ceux qui recherchent un grès cérame distinctif et de haute durabilité pour des projets résidentiels ou commerciaux de prestige."
+    },
+    {
+      "id": "4",
+      "name": "GRÈS CÉRAME 60X120 MAT IN/OUT TERRAZA 1032",
+      "description": "Transformez vos espaces intérieurs et extérieurs avec le GRÈS CÉRAME 60X120 MAT IN/OUT TERRAZA 1032. Ce carreau en grès cérame grand format polyvalent présente une finition mate sophistiquée, offrant une durabilité exceptionnelle et une esthétique moderne parfaite pour les designs contemporains. Son aptitude aux applications intérieures et extérieures le rend idéal pour créer des transitions fluides de l'intérieur vers les terrasses, offrant une solution de revêtement de sol élégante et robuste qui résiste aux intempéries tout en conservant son aspect raffiné. Valorisez vos espaces de vie et terrasses avec ce carreau premium et résistant."
+    },
+    {
+      "id": "5",
+      "name": "GRÈS CÉRAME 60X120 BRILLANT STATUARIO - PEARL STATUARIO",
+      "description": "Atteignez une sophistication intemporelle avec notre GRÈS CÉRAME 60X120 BRILLANT STATUARIO - PEARL STATUARIO. Ce carreau grand format reproduit magnifiquement l'élégance classique du marbre Statuario avec sa base blanc perle lumineuse et ses délicates veines grises. La finition ultra-brillante rehausse son attrait luxueux, le rendant parfait pour créer des murs d'accent saisissants, des sols opulents et des intérieurs raffinés dans des cadres résidentiels et commerciaux. Sublimez votre espace avec la beauté durable du marbre et la durabilité supérieure du grès cérame."
+    },
+    {
+      "id": "6",
+      "name": "GRÈS CÉRAME 60X120 BABYCON ROCCIA LUPO",
+      "description": "Embrassez la beauté brute de la nature avec notre GRÈS CÉRAME 60X120 BABYCON ROCCIA LUPO. Ce carreau en grès cérame grand format capture l'essence de la pierre Roccia Lupo, avec des détails complexes et une palette riche et terreuse. Sa texture Babycon ajoute une dimension tactile subtile, parfaite pour créer des atmosphères sophistiquées et apaisantes dans les projets résidentiels et commerciaux. Idéal pour ceux qui recherchent un carreau effet pierre durable alliant design moderne et attrait naturel intemporel."
+    }
+  ],
+  "COMPANY_INFO": {
+    "name": "TheHomeCeramics",
+    "missionShort": "Fournir aux clients exigeants des carreaux de porcelaine de luxe exquis et durables pour des designs intérieurs et extérieurs transformateurs d'une beauté et d'une qualité inégalées.",
+    "mission": "Notre mission chez TheHomeCeramics est de permettre à nos clients exigeants du monde entier de créer des espaces extraordinaires. Nous y parvenons en fournissant les carreaux de porcelaine de luxe les plus exquis, durables et issus de sources responsables, alliant un design innovant à une qualité exceptionnelle pour faire de chaque projet une œuvre d'art intemporelle.",
+    "values": ["Qualité Intransigeante", "Leadership en Design Innovant", "Approche Axée sur le Client", "Pratiques Durables et Éthiques", "Savoir-faire Artistique"],
+    "expertise": "Fort de décennies d'expérience collective dans l'industrie de la céramique haut de gamme, TheHomeCeramics excelle dans l'approvisionnement, la sélection et la fourniture de carreaux de porcelaine de première qualité. Reconnue pour son esthétique supérieure, sa robustesse et son fin savoir-faire, notre collection est méticuleusement choisie. Notre équipe d'experts suit activement les tendances mondiales du design pour offrir des solutions de carrelage à la fois d'une élégance intemporelle et d'une modernité avant-gardiste, parfaites pour une gamme variée d'applications architecturales prestigieuses."
+  },
+  "AboutPage": {
+    "metadata": {
+        "title": "Notre Histoire & Savoir-Faire en Carreaux de Porcelaine | À Propos de TheHomeCeramics",
+        "description": "Découvrez l'histoire de TheHomeCeramics. Apprenez-en davantage sur notre mission de fournir des carreaux de porcelaine de luxe exceptionnels, notre engagement envers un savoir-faire de qualité, des pratiques durables et les valeurs fondamentales qui animent notre passion pour un design d'intérieur exquis."
+    },
+    "titlePrefix": "À Propos de",
+    "subtitle": "Façonner la beauté et l'élégance, un carreau d'exception à la fois.",
+    "ourMissionImageAlt": "Espace de travail moderne illustrant la mission et l'esprit collaboratif de TheHomeCeramics.",
+    "ourMissionTitle": "Notre Mission : Redéfinir les Espaces",
+    "ourExpertiseTitle": "Notre Expertise : L'Art de la Porcelaine",
+    "coreValuesTitle": "Nos Valeurs Fondamentales : Le Socle de l'Excellence",
+    "teamTitle": "Les Artisans et Experts Derrière les Carreaux",
+    "teamDescription": "Notre équipe passionnée de designers chevronnés, de maîtres artisans et de professionnels dévoués du service client s'engage à donner vie à votre vision unique. Nous croyons que chaque espace, qu'il soit grandiose ou intime, mérite la touche transformatrice de luxe que seuls les meilleurs carreaux de porcelaine peuvent conférer."
+  },
+  "ContactPage": {
+    "metadata": {
+        "title": "Contactez-Nous pour Expertise & Devis Carreaux Porcelaine | TheHomeCeramics",
+        "description": "Prenez contact avec TheHomeCeramics pour des conseils d'experts sur les carreaux de porcelaine de luxe, des devis de projets ou un support dédié. Notre équipe est prête à vous aider à sélectionner les carreaux parfaits pour votre vision du design."
+    },
+    "title": "Connectez-vous avec Nous",
+    "subtitle": "Nous sommes passionnés par l'idée de vous aider à trouver les carreaux de porcelaine parfaits pour votre projet prestigieux. Contactez-nous dès aujourd'hui !",
+    "formTitle": "Envoyez-Nous un Message",
+    "contactInfoTitle": "Coordonnées",
+    "emailUs": "Envoyez-nous un E-mail",
+    "callUs": "Appelez-Nous",
+    "visitUs": "Visitez Notre Showroom",
+    "businessHoursTitle": "Heures d'Ouverture",
+     "businessHours": {
+        "line1": "Lundi - Vendredi : 9h00 - 18h00",
+        "line2": "Samedi : 10h00 - 16h00 (Sur Rendez-vous)",
+        "line3": "Dimanche : Fermé"
+    },
+    "form": {
+      "successMessage": "Merci pour votre message ! Nous vous contacterons sous peu.",
+      "validationFailed": "L'envoi du formulaire a échoué. Veuillez vérifier les champs en surbrillance et réessayer.",
+      "errors": {
+        "nameRequired": "Le nom complet doit comporter au moins 2 caractères.",
+        "emailInvalid": "Veuillez saisir une adresse e-mail valide.",
+        "subjectRequired": "L'objet doit comporter au moins 5 caractères.",
+        "messageRequired": "Votre message doit contenir au moins 10 caractères."
+      }
+    }
+  },
+  "CONTACT_DETAILS": {
+    "email": "bilal@thehomeceramics.com, ismail@thehomeceramics.com",
+    "phone": "+34 625 05 27 53",
+    "address": "Carrer de Pere Aleixandre, 22, BAJO 2, Quatre Carreres, 46006 València"
+  },
+  "ProductsPage": {
+     "metadata": {
+        "title": "Achetez Notre Collection Complète de Carreaux de Porcelaine de Luxe | TheHomeCeramics",
+        "description": "Explorez le catalogue complet des carreaux de porcelaine de luxe de TheHomeCeramics. Découvrez une vaste gamme de styles, finitions et tailles, y compris des dalles grand format, parfaits pour votre projet sophistiqué de design d'intérieur résidentiel ou commercial."
+    },
+    "title": "Notre Collection Exquise de Carreaux",
+    "subtitle": "Sublimez vos espaces avec des carreaux en grès cérame au design supérieur. Trouvez l'inspiration dans notre collection, synonyme d'élégance durable et de résistance maximale."
+  },
+  "ProductCard": {
+    "materialLabel": "Matériau:",
+    "finishLabel": "Finition:",
+    "sizeLabel": "Taille:",
+    "styleLabel": "Style:",
+    "viewDetailsButton": "Contactez-nous sur WhatsApp",
+    "whatsappInquiryPrefix": "Bonjour, je suis intéressé(e) par:"
+  },
+  "LanguageSwitcher": {
+    "changeLanguage": "Changer de langue",
+    "currentLanguage": {
+      "en": "Anglais",
+      "es": "Espagnol",
+      "fr": "Français"
+    }
+  },
+  "FeatureRemovedPage": {
+    "metadata": {
+      "title": "Fonctionnalité Supprimée | TheHomeCeramics",
+      "description": "Cette fonctionnalité n'est plus disponible. Explorez d'autres options et services de carrelage de luxe de TheHomeCeramics."
+    },
+    "title": "Fonctionnalité Supprimée",
+    "message": "Nous nous excusons, mais cette fonctionnalité n'est plus disponible. Veuillez explorer nos autres services ou nous contacter pour obtenir de l'aide."
+  }
+}

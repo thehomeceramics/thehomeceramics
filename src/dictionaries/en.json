@@ -1,0 +1,174 @@
+
+{
+  "Metadata": {
+    "defaultTitle": "Luxury Porcelain Tiles & Expert Interior Design | TheHomeCeramics",
+    "templateTitle": "%s | TheHomeCeramics - Premium Tiles",
+    "defaultDescription": "Discover TheHomeCeramics' exquisite collection of premium porcelain tiles. We offer timeless elegance, unparalleled durability, and unique designs for floors, walls, and bespoke architectural projects. Elevate your space with our luxury ceramics.",
+    "keywords": ["luxury porcelain tiles", "premium ceramic tiles", "designer tiles", "interior design tiles", "modern floor tiles", "classic wall tiles", "bathroom renovation tiles", "kitchen backsplash tiles", "large format porcelain slabs", "tile showroom", "TheHomeCeramics", "durable tiles", "elegant tiling solutions", "high-end ceramics", "PORCELAIN TILE 60X120 MATT", "BRILLER CHOCO RUBIC tile", "PORCELAIN TILE 60X120 GLOSSY", "GRACIA AQUA RAINBOW tile", "PORCELAIN TILE 60X120 CARVING GROOVE LIGHT", "PORCELANICO 60X120 MATE IN/PUT TERRAZA 1032", "PORCELAIN TILE 60X120 STATUARIO GLOSSY", "PORCELAIN TILE 60X120 BABYCON ROCCIA LUPO"]
+  },
+  "NavLinks": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "Header": {
+    "companyName": "TheHomeCeramics",
+    "mobileMenuTitle": "Navigation Menu",
+    "logoAlt": "TheHomeCeramics Company Logo"
+  },
+  "HomePage": {
+    "metadata": {
+      "title": "Luxury Porcelain Tiles for Elegant Interiors | TheHomeCeramics",
+      "description": "Transform your home or commercial space with exquisite porcelain tiles from TheHomeCeramics. Browse our featured collections and discover designs that blend artistry with lasting durability for a truly sophisticated ambiance."
+    },
+    "hero": {
+      "title": "Elegance Forged in Porcelain",
+      "subtitle": "Discover unparalleled luxury and timeless design. TheHomeCeramics offers an exclusive collection of porcelain tiles to transform your vision into reality.",
+      "exploreButton": "Explore Our Collection",
+      "heroImage1Alt": "Elegant living room featuring premium porcelain floor tiles",
+      "heroImage2Alt": "Luxurious bathroom design with marble-effect porcelain wall tiles",
+      "heroImage3Alt": "Modern kitchen showcasing durable and stylish porcelain countertops",
+      "heroImage4Alt": "Chic outdoor patio area with sophisticated porcelain pavers"
+    },
+    "featuredCollection": {
+      "title": "Featured Tile Collections",
+      "subtitle": "Handpicked selections from our finest porcelain tiles, embodying quality and style.",
+      "viewAll": "View All Products"
+    },
+    "aboutUsTeaser": {
+      "titlePrefix": "Discover",
+      "subtitle": "Crafting beauty and enduring quality, one exquisite tile at a time.",
+      "learnMoreButton": "Learn More About Us"
+    },
+    "natureInspiration": {
+      "sectionTitle": "WHO ARE WE?",
+      "headline": "A GIFT OF NATURE, ARTISTICALLY REFINED FOR YOUR SPACE",
+      "paragraph1": "At TheHomeCeramics, our design philosophy is rooted in nature's artistry. We meticulously craft premium porcelain tiles that capture the essence of marble, stone, wood, concrete, and textiles, bringing organic beauty and sophisticated textures to your living spaces.",
+      "paragraph2": "Fusing advanced technology with contemporary design trends, TheHomeCeramics | Seramik Porselen delivers innovative tiling solutions. Our diverse range of colors, patterns, and large formats (including 60x120, 30x60, 30x75, 30x90 cm) ensures aesthetic harmony and functional excellence for every architectural need.",
+      "detailsButton": "EXPLORE OUR STORY",
+      "image1Alt": "Elegant living space showcasing Hurrem porcelain tiles and sophisticated armchairs",
+      "image2Alt": "Artistic display of TheHomeCeramics's premium tile products - inicio_quien_somos.jpg",
+      "image3Alt": "Insight into TheHomeCeramics's design process or showroom view - inicio_quien_somos_1.jpg"
+    }
+  },
+  "PRODUCTS_DATA": [
+    {
+      "id": "1",
+      "name": "PORCELAIN TILE 60X120 MATT (RELIEF) - BRILLER CHOCO RUBIC",
+      "description": "Elevate your interiors with our PORCELAIN TILE 60X120 MATT (RELIEF) in the captivating Briller Choco Rubic finish. This large-format tile combines a sophisticated matte surface with subtle relief, offering rich texture and visual depth. Perfect for creating distinguished modern walls and floors, its warm chocolate tones and unique textured Rubic pattern provide a touch of contemporary elegance and lasting durability. Ideal for statement applications seeking a unique, high-end appeal."
+    },
+    {
+      "id": "2",
+      "name": "PORCELAIN TILE 60X120 GLOSSY (RAINBOW) - GRACIA AQUA",
+      "description": "Illuminate your space with the PORCELAIN TILE 60X120 GLOSSY (RAINBOW) in the mesmerizing Gracia Aqua. This large-format tile boasts a high-gloss finish that enhances its vibrant aqua hue, while the unique Rainbow effect scatters light for a dynamic, iridescent shimmer. Perfect for creating breathtaking feature walls, luxurious bathroom designs, or sophisticated commercial spaces, this tile offers a bold statement of modern elegance and unparalleled visual interest. Its durable porcelain construction ensures lasting beauty."
+    },
+    {
+      "id": "3",
+      "name": "PORCELAIN TILE 60X120 CARVING GROOVE LIGHT",
+      "description": "Experience tactile sophistication with our PORCELAIN TILE 60X120 CARVING GROOVE LIGHT. This large-format tile features an innovative \"carving\" finish that creates subtle reliefs and plays of light, adding depth and unique character to your walls and floors. The elegant and luminous Groove Light tone complements contemporary and minimalist designs, providing refined texture without overwhelming the space. Ideal for those seeking distinctive, high-durability porcelain for prestigious residential or commercial projects."
+    },
+    {
+      "id": "4",
+      "name": "PORCELAIN TILE 60X120 MATT IN/OUT TERRAZA 1032",
+      "description": "Transform your indoor and outdoor spaces with the PORCELAIN TILE 60X120 MATT IN/OUT TERRAZA 1032. This versatile large-format porcelain tile features a sophisticated matte finish, offering exceptional durability and a modern aesthetic perfect for contemporary designs. Its suitability for both indoor and outdoor applications makes it ideal for creating seamless transitions from interiors to terraces, providing a stylish and robust flooring solution that withstands the elements while maintaining its refined look. Enhance your living areas and terraces with this premium, resilient tile."
+    },
+    {
+      "id": "5",
+      "name": "PORCELAIN TILE 60X120 GLOSSY STATUARIO - PEARL STATUARIO",
+      "description": "Achieve timeless sophistication with our PORCELAIN TILE 60X120 GLOSSY STATUARIO - PEARL STATUARIO. This large-format tile beautifully replicates the classic elegance of Statuario marble with its luminous pearl-white base and delicate grey veining. The high-gloss finish enhances its luxurious appeal, making it perfect for creating stunning statement walls, opulent floors, and refined interiors in both residential and commercial settings. Elevate your space with the enduring beauty of marble and the superior durability of porcelain."
+    },
+    {
+      "id": "6",
+      "name": "PORCELAIN TILE 60X120 BABYCON ROCCIA LUPO",
+      "description": "Embrace the raw beauty of nature with our PORCELAIN TILE 60X120 BABYCON ROCCIA LUPO. This large-format porcelain tile captures the essence of Roccia Lupo stone, featuring intricate details and a rich, earthy palette. Its Babycon texture adds a subtle tactile dimension, perfect for creating sophisticated and grounding atmospheres in both residential and commercial projects. Ideal for those seeking a durable, stone-effect tile that blends modern design with timeless natural appeal."
+    }
+  ],
+  "COMPANY_INFO": {
+    "name": "TheHomeCeramics",
+    "missionShort": "Providing discerning clients with exquisite, durable luxury porcelain tiles for transformative interior and exterior designs of unparalleled beauty and quality.",
+    "mission": "Our mission at TheHomeCeramics is to empower discerning customers worldwide to create extraordinary spaces. We achieve this by providing the most exquisite, durable, and sustainably-sourced luxury porcelain tiles, blending innovative design with exceptional quality to turn every project into a timeless work of art.",
+    "values": ["Uncompromising Quality", "Innovative Design Leadership", "Client-Centric Approach", "Sustainable & Ethical Practices", "Artistic Craftsmanship"],
+    "expertise": "With decades of collective experience in the high-end ceramics industry, TheHomeCeramics excels in sourcing, curating, and supplying premium porcelain tiles. Renowned for superior aesthetics, robust durability, and fine craftsmanship, our collection is meticulously selected. Our expert team actively monitors global design trends to offer tiling solutions that are both timelessly elegant and cutting-edge contemporary, perfect for a diverse range of prestigious architectural applications."
+  },
+  "AboutPage": {
+    "metadata": {
+        "title": "Our Story & Craftsmanship in Porcelain Tiles | About TheHomeCeramics",
+        "description": "Discover the story behind TheHomeCeramics. Learn about our mission to deliver exceptional luxury porcelain tiles, our commitment to quality craftsmanship, sustainable practices, and the core values that drive our passion for exquisite interior design."
+    },
+    "titlePrefix": "About",
+    "subtitle": "Crafting beauty and elegance, one exceptional tile at a time.",
+    "ourMissionImageAlt": "Modern workspace illustrating TheHomeCeramics's mission and collaborative spirit.",
+    "ourMissionTitle": "Our Mission: Redefining Spaces",
+    "ourExpertiseTitle": "Our Expertise: The Art of Porcelain",
+    "coreValuesTitle": "Our Core Values: The Foundation of Excellence",
+    "teamTitle": "The Artisans & Experts Behind the Tiles",
+    "teamDescription": "Our passionate team of seasoned designers, master artisans, and dedicated customer service professionals are committed to bringing your unique vision to life. We believe every space, grand or intimate, deserves the transformative touch of luxury that only the finest porcelain tiles can impart."
+  },
+  "ContactPage": {
+    "metadata": {
+        "title": "Contact Us for Porcelain Tile Expertise & Quotes | TheHomeCeramics",
+        "description": "Get in touch with TheHomeCeramics for expert advice on luxury porcelain tiles, project quotes, or dedicated support. Our team is ready to assist you in selecting the perfect tiles for your design vision."
+    },
+    "title": "Connect With Us",
+    "subtitle": "We're passionate about helping you find the perfect porcelain tiles for your prestigious project. Reach out today!",
+    "formTitle": "Send Us a Message",
+    "contactInfoTitle": "Contact Information",
+    "emailUs": "Email Us",
+    "callUs": "Call Us",
+    "visitUs": "Visit Our Showroom",
+    "businessHoursTitle": "Business Hours",
+    "businessHours": {
+        "line1": "Monday - Friday: 9:00 AM - 6:00 PM",
+        "line2": "Saturday: 10:00 AM - 4:00 PM (By Appointment)",
+        "line3": "Sunday: Closed"
+    },
+    "form": {
+      "successMessage": "Thank you for your message! We will be in touch with you shortly.",
+      "validationFailed": "Form submission failed. Please review the highlighted fields and try again.",
+      "errors": {
+        "nameRequired": "Full name must be at least 2 characters.",
+        "emailInvalid": "Please enter a valid email address.",
+        "subjectRequired": "Subject line must be at least 5 characters.",
+        "messageRequired": "Your message must contain at least 10 characters."
+      }
+    }
+  },
+  "CONTACT_DETAILS": {
+    "email": "bilal@thehomeceramics.com, ismail@thehomeceramics.com",
+    "phone": "+34 625 05 27 53",
+    "address": "Carrer de Pere Aleixandre, 22, BAJO 2, Quatre Carreres, 46006 València"
+  },
+  "ProductsPage": {
+    "metadata": {
+        "title": "Shop Our Full Collection of Luxury Porcelain Tiles | TheHomeCeramics",
+        "description": "Explore the complete catalog of TheHomeCeramics's luxury porcelain tiles. Discover an extensive range of styles, finishes, and sizes, including large format slabs, perfect for your sophisticated residential or commercial interior design project."
+    },
+    "title": "Our Exquisite Tile Collection",
+    "subtitle": "Elevate your spaces with superior design porcelain tiles. Find inspiration in our collection, synonymous with enduring elegance and maximum resilience."
+  },
+  "ProductCard": {
+    "materialLabel": "Material:",
+    "finishLabel": "Finish:",
+    "sizeLabel": "Size:",
+    "styleLabel": "Style:",
+    "viewDetailsButton": "Contact us on WhatsApp",
+    "whatsappInquiryPrefix": "Hello, I'm interested in:"
+  },
+  "LanguageSwitcher": {
+    "changeLanguage": "Change language",
+    "currentLanguage": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français"
+    }
+  },
+  "FeatureRemovedPage": {
+    "metadata": {
+      "title": "Feature Removed | TheHomeCeramics",
+      "description": "This feature is no longer available. Explore other luxury tile options and services from TheHomeCeramics."
+    },
+    "title": "Feature Removed",
+    "message": "We apologize, but this feature is no longer available. Please explore our other services or contact us for assistance."
+  }
+}
