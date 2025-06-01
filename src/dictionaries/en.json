@@ -2,7 +2,7 @@
 {
   "Metadata": {
     "defaultTitle": "Luxury Porcelain Tiles & Expert Interior Design | TheHomeCeramics",
-    "templateTitle": "%s | TheHomeCeramics - Premium Tiles",
+    "templateTitle": "%s | The Home Ceramics Atelier",
     "defaultDescription": "Discover TheHomeCeramics' exquisite collection of premium porcelain tiles. We offer timeless elegance, unparalleled durability, and unique designs for floors, walls, and bespoke architectural projects. Elevate your space with our luxury ceramics.",
     "keywords": ["luxury porcelain tiles", "premium ceramic tiles", "designer tiles", "interior design tiles", "modern floor tiles", "classic wall tiles", "bathroom renovation tiles", "kitchen backsplash tiles", "large format porcelain slabs", "tile showroom", "TheHomeCeramics", "durable tiles", "elegant tiling solutions", "high-end ceramics", "PORCELAIN TILE 60X120 MATT", "BRILLER CHOCO RUBIC tile", "PORCELAIN TILE 60X120 GLOSSY", "GRACIA AQUA RAINBOW tile", "PORCELAIN TILE 60X120 CARVING GROOVE LIGHT", "PORCELANICO 60X120 MATE IN/PUT TERRAZA 1032", "PORCELAIN TILE 60X120 STATUARIO GLOSSY", "PORCELAIN TILE 60X120 BABYCON ROCCIA LUPO"]
   },
@@ -19,7 +19,7 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Luxury Porcelain Tiles for Elegant Interiors | TheHomeCeramics",
+      "title": "Luxury Porcelain Tiles & Elegant Interiors | TheHomeCeramics Atelier",
       "description": "Transform your home or commercial space with exquisite porcelain tiles from TheHomeCeramics. Browse our featured collections and discover designs that blend artistry with lasting durability for a truly sophisticated ambiance."
     },
     "hero": {
@@ -85,7 +85,7 @@
     }
   ],
   "COMPANY_INFO": {
-    "name": "TheHomeCeramics",
+    "name": "TheHomeCeramics Atelier",
     "missionShort": "Providing discerning clients with exquisite, durable luxury porcelain tiles for transformative interior and exterior designs of unparalleled beauty and quality.",
     "mission": "Our mission at TheHomeCeramics is to empower discerning customers worldwide to create extraordinary spaces. We achieve this by providing the most exquisite, durable, and sustainably-sourced luxury porcelain tiles, blending innovative design with exceptional quality to turn every project into a timeless work of art.",
     "values": ["Uncompromising Quality", "Innovative Design Leadership", "Client-Centric Approach", "Sustainable & Ethical Practices", "Artistic Craftsmanship"],
@@ -170,5 +170,8 @@
     },
     "title": "Feature Removed",
     "message": "We apologize, but this feature is no longer available. Please explore our other services or contact us for assistance."
+  },
+  "Footer": {
+    "tagline": "Luxury Porcelain Tiles for Discerning Tastes."
   }
 }

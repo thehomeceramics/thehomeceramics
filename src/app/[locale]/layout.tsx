@@ -1,3 +1,4 @@
+
 import type { Metadata } from 'next';
 // Global CSS is now imported in src/app/layout.tsx
 import { Header } from '@/components/layout/Header';
@@ -17,8 +18,8 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       default: metadataDict.defaultTitle || 'The Home Ceramics Atelier - Luxury Porcelain Tiles',
       template: metadataDict.templateTitle || '%s | The Home Ceramics Atelier',
     },
-    description: metadataDict.defaultDescription || 'Discover exquisite luxury porcelain tiles at The Home Ceramics Atelier. Explore our collection and get AI-powered style advice for your space.',
-    keywords: metadataDict.keywords || ['luxury porcelain tiles', 'ceramics', 'interior design', 'home renovation', 'tile store', 'AI tile advisor'],
+    description: metadataDict.defaultDescription || 'Discover exquisite luxury porcelain tiles from TheHomeCeramics. We offer timeless elegance and superior durability for your interior and exterior design projects.',
+    keywords: metadataDict.keywords || ['luxury porcelain tiles', 'ceramics', 'interior design', 'home renovation', 'tile store'],
   };
 }
 
@@ -39,7 +40,7 @@ export default async function LocaleLayout({
       {/* The <body className="..."> is in src/app/layout.tsx */}
       <Header locale={locale} dictionary={dict} />
       <main className="flex-grow">{children}</main>
-      <Footer /> {/* Footer will also need dictionary if it has text */}
+      <Footer locale={locale} dictionary={dict} />
       {/* <Toaster /> is now in src/app/layout.tsx */}
     </>
   );

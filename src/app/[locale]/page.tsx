@@ -1,6 +1,26 @@
 
+import type { Metadata } from 'next';
 import { getDictionary, type Dictionary } from '@/lib/getDictionary';
 import HomePageClient from '@/components/home/HomePageClient';
+
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
+  const dict = await getDictionary(locale);
+  const homeMeta = dict.HomePage?.metadata || {};
+  
+  return {
+    title: { absolute: homeMeta.title || "TheHomeCeramics Atelier" },
+    description: homeMeta.description || "Luxury porcelain tiles for elegant interiors and exteriors.",
+    alternates: {
+      canonical: './', // Resolves to /es, /en, /fr based on current locale
+      languages: {
+        'en': '/en',
+        'es': '/es',
+        'fr': '/fr',
+        'x-default': '/es', // Default language version
+      },
+    },
+  };
+}
 
 // This remains a Server Component
 export default async function HomePageContainer({ params: { locale } }: { params: { locale: string } }) {
@@ -16,7 +36,7 @@ export default async function HomePageContainer({ params: { locale } }: { params
     finishLabel: "Finish:",
     sizeLabel: "Size:",
     styleLabel: "Style:",
-    viewDetailsButton: "Chat on WhatsApp",
+    viewDetailsButton: "Contact us on WhatsApp",
     whatsappInquiryPrefix: "Hello, I'm interested in:"
   };
 
@@ -31,5 +51,3 @@ export default async function HomePageContainer({ params: { locale } }: { params
     />
   );
 }
-
-    

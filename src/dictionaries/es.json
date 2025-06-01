@@ -2,7 +2,7 @@
 {
   "Metadata": {
     "defaultTitle": "Azulejos de Porcelana de Lujo y Diseño Experto | TheHomeCeramics",
-    "templateTitle": "%s | TheHomeCeramics - Azulejos Premium",
+    "templateTitle": "%s | The Home Ceramics Atelier",
     "defaultDescription": "Descubra la exquisita colección de azulejos de porcelana premium de TheHomeCeramics. Ofrecemos elegancia atemporal, durabilidad incomparable y diseños únicos para suelos, paredes y proyectos arquitectónicos a medida. Eleve su espacio con nuestra cerámica de lujo.",
     "keywords": ["azulejos de porcelana de lujo", "baldosas cerámicas premium", "azulejos de diseño", "azulejos para diseño de interiores", "pavimentos modernos", "revestimientos clásicos", "azulejos para reforma de baño", "azulejos para cocina", "láminas porcelánicas gran formato", "exposición de azulejos", "TheHomeCeramics", "azulejos duraderos", "soluciones elegantes en alicatado", "cerámica de alta gama", "PORCELANICO 60X120 MATE", "azulejo BRILLER CHOCO RUBIC", "PORCELANICO 60X120 BRILLO", "azulejo GRACIA AQUA RAINBOW", "PORCELANICO 60X120 CARVING GROOVE LIGHT", "PORCELANICO 60X120 MATE IN/PUT TERRAZA 1032", "PORCELANICO 60X120 STATUARIO BRILLO", "PORCELANICO 60X120 BABYCON ROCCIA LUPO"]
   },
@@ -19,7 +19,7 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Azulejos de Porcelana de Lujo para Interiores Elegantes | TheHomeCeramics",
+      "title": "Porcelana de Lujo e Interiores Elegantes | TheHomeCeramics Atelier",
       "description": "Transforme su hogar o espacio comercial con exquisitos azulejos de porcelana de TheHomeCeramics. Explore nuestras colecciones destacadas y descubra diseños que fusionan arte con durabilidad perdurable para un ambiente verdaderamente sofisticado."
     },
     "hero": {
@@ -85,7 +85,7 @@
     }
   ],
   "COMPANY_INFO": {
-    "name": "TheHomeCeramics",
+    "name": "TheHomeCeramics Atelier",
     "missionShort": "Proveer a clientes exigentes con los más exquisitos y duraderos azulejos de porcelana de lujo para diseños transformadores de interiores y exteriores de belleza y calidad incomparables.",
     "mission": "Nuestra misión en TheHomeCeramics es capacitar a clientes exigentes de todo el mundo para crear espacios extraordinarios. Logramos esto proporcionando los azulejos de porcelana de lujo más exquisitos, duraderos y de origen sostenible, fusionando un diseño innovador con una calidad excepcional para convertir cada proyecto en una obra de arte atemporal.",
     "values": ["Calidad Incomprometible", "Liderazgo en Diseño Innovador", "Enfoque Centrado en el Cliente", "Prácticas Sostenibles y Éticas", "Artesanía Artística"],
@@ -170,5 +170,8 @@
     },
     "title": "Función Eliminada",
     "message": "Lo sentimos, pero esta función ya no está disponible. Por favor, explore nuestros otros servicios o contáctenos para obtener ayuda."
+  },
+  "Footer": {
+    "tagline": "Azulejos de Porcelana de Lujo para Gustos Exigentes."
   }
 }

@@ -2,7 +2,7 @@
 {
   "Metadata": {
     "defaultTitle": "Carreaux de Porcelaine de Luxe & Design d'Intérieur Expert | TheHomeCeramics",
-    "templateTitle": "%s | TheHomeCeramics - Carreaux Premium",
+    "templateTitle": "%s | The Home Ceramics Atelier",
     "defaultDescription": "Découvrez la collection exquise de carreaux de porcelaine haut de gamme de TheHomeCeramics. Nous offrons une élégance intemporelle, une durabilité inégalée et des designs uniques pour sols, murs et projets architecturaux sur mesure. Sublimez votre espace avec notre céramique de luxe.",
     "keywords": ["carreaux de porcelaine de luxe", "carrelage céramique premium", "carreaux de designer", "carreaux design d'intérieur", "carrelage sol moderne", "carrelage mural classique", "carreaux rénovation salle de bain", "carreaux crédence cuisine", "dalles en porcelaine grand format", "showroom carrelage", "TheHomeCeramics", "carreaux durables", "solutions de carrelage élégantes", "céramique haut de gamme", "GRÈS CÉRAME 60X120 MAT", "carreau BRILLER CHOCO RUBIC", "GRÈS CÉRAME 60X120 BRILLANT", "carreau GRACIA AQUA RAINBOW", "GRÈS CÉRAME 60X120 CARVING GROOVE LIGHT", "GRÈS CÉRAME 60X120 MAT IN/PUT TERRAZA 1032", "GRÈS CÉRAME 60X120 STATUARIO BRILLANT", "GRÈS CÉRAME 60X120 BABYCON ROCCIA LUPO"]
   },
@@ -19,7 +19,7 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Carreaux de Porcelaine de Luxe pour Intérieurs Élégants | TheHomeCeramics",
+      "title": "Carreaux Porcelaine Luxe & Intérieurs Élégants | TheHomeCeramics Atelier",
       "description": "Transformez votre maison ou espace commercial avec les carreaux de porcelaine exquis de TheHomeCeramics. Parcourez nos collections vedettes et découvrez des designs qui allient talent artistique et durabilité pour une ambiance véritablement sophistiquée."
     },
     "hero": {
@@ -85,7 +85,7 @@
     }
   ],
   "COMPANY_INFO": {
-    "name": "TheHomeCeramics",
+    "name": "TheHomeCeramics Atelier",
     "missionShort": "Fournir aux clients exigeants des carreaux de porcelaine de luxe exquis et durables pour des designs intérieurs et extérieurs transformateurs d'une beauté et d'une qualité inégalées.",
     "mission": "Notre mission chez TheHomeCeramics est de permettre à nos clients exigeants du monde entier de créer des espaces extraordinaires. Nous y parvenons en fournissant les carreaux de porcelaine de luxe les plus exquis, durables et issus de sources responsables, alliant un design innovant à une qualité exceptionnelle pour faire de chaque projet une œuvre d'art intemporelle.",
     "values": ["Qualité Intransigeante", "Leadership en Design Innovant", "Approche Axée sur le Client", "Pratiques Durables et Éthiques", "Savoir-faire Artistique"],
@@ -170,5 +170,8 @@
     },
     "title": "Fonctionnalité Supprimée",
     "message": "Nous nous excusons, mais cette fonctionnalité n'est plus disponible. Veuillez explorer nos autres services ou nous contacter pour obtenir de l'aide."
+  },
+  "Footer": {
+    "tagline": "Carreaux de Porcelaine de Luxe pour des Goûts Exigeants."
   }
 }
