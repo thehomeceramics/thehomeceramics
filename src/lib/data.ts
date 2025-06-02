@@ -1,5 +1,5 @@
 
-import type { Product } from '@/types';
+import type { Product, CatalogItemBase } from '@/types';
 
 export const PRODUCTS: Product[] = [
   {
@@ -125,4 +125,18 @@ export const CONTACT_DETAILS = {
   address: "Carrer de Pere Aleixandre, 22, BAJO 2, Quatre Carreres, 46006 València"
 };
 
-    
+// Base data for catalogs (non-translatable parts)
+export const CATALOGS_BASE_DATA: CatalogItemBase[] = [
+  {
+    id: 'catalog_general_2024',
+    coverImageUrl: 'https://placehold.co/300x424.png', // A4-like aspect ratio
+    driveLink: 'YOUR_GOOGLE_DRIVE_LINK_FOR_CATALOG_1', // Replace with actual link
+    dataAiHint: 'tile catalog cover',
+  },
+  {
+    id: 'catalog_luxury_collection',
+    coverImageUrl: 'https://placehold.co/300x424.png',
+    driveLink: 'YOUR_GOOGLE_DRIVE_LINK_FOR_CATALOG_2', // Replace with actual link
+    dataAiHint: 'luxury tile catalog',
+  },
+];

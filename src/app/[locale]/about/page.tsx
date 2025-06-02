@@ -1,7 +1,8 @@
+
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import { SectionTitle } from '@/components/shared/SectionTitle';
-import { COMPANY_INFO } from '@/lib/data'; // This will need to be translated
+import { COMPANY_INFO } from '@/lib/data'; 
 import { CheckCircle, Award, Users, Target } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { getDictionary } from '@/lib/getDictionary';
@@ -9,17 +10,28 @@ import { getDictionary } from '@/lib/getDictionary';
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const dict = await getDictionary(locale);
   const pageDict = dict.AboutPage?.metadata || {};
-  const companyName = dict.COMPANY_INFO?.name || COMPANY_INFO.name;
+  const companyInfo = dict.COMPANY_INFO || COMPANY_INFO; // Use translated or fallback
+  const navLinks = dict.NavLinks || {};
+  
   return {
-    title: pageDict.title || `${dict.NavLinks?.about || 'About Us'} - ${companyName}`,
-    description: pageDict.description || `Learn about ${companyName}'s mission, values, and expertise in luxury porcelain tiles.`,
+    title: pageDict.title || `${navLinks.about || 'About Us'} - ${companyInfo.name}`,
+    description: pageDict.description || `Learn about ${companyInfo.name}'s mission, values, and expertise in luxury porcelain tiles.`,
+    alternates: {
+      canonical: `/${locale}/about`,
+      languages: {
+        'en': '/en/about',
+        'es': '/es/about',
+        'fr': '/fr/about',
+        'x-default': `/es/about`,
+      },
+    },
   };
 }
 
 export default async function AboutPage({ params: { locale } }: { params: { locale: string } }) {
   const dict = await getDictionary(locale);
   const t = dict.AboutPage;
-  const companyInfo = { // Merge or use translated version
+  const companyInfo = { 
     name: dict.COMPANY_INFO?.name || COMPANY_INFO.name,
     mission: dict.COMPANY_INFO?.mission || COMPANY_INFO.mission,
     expertise: dict.COMPANY_INFO?.expertise || COMPANY_INFO.expertise,
@@ -30,7 +42,7 @@ export default async function AboutPage({ params: { locale } }: { params: { loca
   return (
     <div className="container mx-auto px-4 py-12 md:py-16 animate-in fade-in duration-500">
       <SectionTitle
-        as="h1" // Use h1 for the main page title
+        as="h1" 
         title={`${t?.titlePrefix || 'About'} ${companyInfo.name}`}
         subtitle={t?.subtitle || "Crafting beauty and elegance, one tile at a time."}
       />
@@ -100,3 +112,5 @@ export default async function AboutPage({ params: { locale } }: { params: { loca
     </div>
   );
 }
+
+    

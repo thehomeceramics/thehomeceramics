@@ -3,12 +3,13 @@
   "Metadata": {
     "defaultTitle": "Azulejos de Porcelana de Lujo y Diseño Experto | TheHomeCeramics",
     "templateTitle": "%s | The Home Ceramics Atelier",
-    "defaultDescription": "Descubra la exquisita colección de azulejos de porcelana premium de TheHomeCeramics. Ofrecemos elegancia atemporal, durabilidad incomparable y diseños únicos para suelos, paredes y proyectos arquitectónicos a medida. Eleve su espacio con nuestra cerámica de lujo.",
+    "defaultDescription": "Descubra la exquisita colección de porcelánicos premium de TheHomeCeramics. Elegancia atemporal, durabilidad y diseños únicos para suelos y paredes. Eleve su espacio.",
     "keywords": ["azulejos de porcelana de lujo", "baldosas cerámicas premium", "azulejos de diseño", "azulejos para diseño de interiores", "pavimentos modernos", "revestimientos clásicos", "azulejos para reforma de baño", "azulejos para cocina", "láminas porcelánicas gran formato", "exposición de azulejos", "TheHomeCeramics", "azulejos duraderos", "soluciones elegantes en alicatado", "cerámica de alta gama", "PORCELANICO 60X120 MATE", "azulejo BRILLER CHOCO RUBIC", "PORCELANICO 60X120 BRILLO", "azulejo GRACIA AQUA RAINBOW", "PORCELANICO 60X120 CARVING GROOVE LIGHT", "PORCELANICO 60X120 MATE IN/PUT TERRAZA 1032", "PORCELANICO 60X120 STATUARIO BRILLO", "PORCELANICO 60X120 BABYCON ROCCIA LUPO"]
   },
   "NavLinks": {
     "home": "Inicio",
     "products": "Productos",
+    "catalogs": "Catálogos",
     "about": "Nosotros",
     "contact": "Contacto"
   },
@@ -19,8 +20,8 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Porcelana de Lujo e Interiores Elegantes | TheHomeCeramics Atelier",
-      "description": "Transforme su hogar o espacio comercial con exquisitos azulejos de porcelana de TheHomeCeramics. Explore nuestras colecciones destacadas y descubra diseños que fusionan arte con durabilidad perdurable para un ambiente verdaderamente sofisticado."
+      "title": "Porcelánicos de Lujo para Espacios Elegantes | TheHomeCeramics Atelier",
+      "description": "Explore la colección exclusiva de porcelánicos de lujo de TheHomeCeramics Atelier. Descubra elegancia atemporal, durabilidad y diseños únicos para sus interiores y exteriores."
     },
     "hero": {
       "title": "Elegancia Forjada en Porcelana",
@@ -93,8 +94,8 @@
   },
   "AboutPage": {
     "metadata": {
-        "title": "Nuestra Historia y Artesanía en Porcelánicos | Sobre TheHomeCeramics",
-        "description": "Descubra la historia detrás de TheHomeCeramics. Conozca nuestra misión de entregar excepcionales azulejos de porcelana de lujo, nuestro compromiso con la artesanía de calidad, prácticas sostenibles y los valores fundamentales que impulsan nuestra pasión por el diseño de interiores exquisito."
+        "title": "Historia y Artesanía en Porcelánicos | TheHomeCeramics",
+        "description": "Conozca TheHomeCeramics: nuestra misión, valores y pasión por los porcelánicos de lujo. Calidad artesanal y diseño sostenible para interiores exquisitos."
     },
     "titlePrefix": "Sobre",
     "subtitle": "Creando belleza y elegancia, un azulejo excepcional a la vez.",
@@ -107,8 +108,8 @@
   },
   "ContactPage": {
     "metadata": {
-        "title": "Contáctenos para Asesoría y Presupuestos de Porcelánico | TheHomeCeramics",
-        "description": "Póngase en contacto con TheHomeCeramics para obtener asesoramiento experto sobre azulejos de porcelana de lujo, presupuestos para proyectos o soporte dedicado. Nuestro equipo está listo para ayudarle a seleccionar los azulejos perfectos para su visión de diseño."
+        "title": "Contacto y Presupuestos Porcelánico | TheHomeCeramics",
+        "description": "Contacte TheHomeCeramics para asesoría en porcelánicos de lujo y presupuestos. Ayudamos a seleccionar los azulejos perfectos para su proyecto."
     },
     "title": "Conéctese con Nosotros",
     "subtitle": "Nos apasiona ayudarle a encontrar los azulejos de porcelana perfectos para su prestigioso proyecto. ¡Contáctenos hoy!",
@@ -141,8 +142,8 @@
   },
   "ProductsPage": {
     "metadata": {
-        "title": "Compre Nuestra Colección Completa de Porcelánicos de Lujo | TheHomeCeramics",
-        "description": "Explore el catálogo completo de azulejos de porcelana de lujo de TheHomeCeramics. Descubra una extensa gama de estilos, acabados y tamaños, incluyendo láminas de gran formato, perfectas para su sofisticado proyecto de diseño interior residencial o comercial."
+        "title": "Colección Porcelánicos de Lujo | TheHomeCeramics",
+        "description": "Catálogo completo de porcelánicos de lujo TheHomeCeramics. Variedad de estilos, acabados y grandes formatos para su proyecto de diseño interior."
     },
     "title": "Nuestra Exquisita Colección de Azulejos",
     "subtitle": "Eleve sus espacios con porcelánicos de diseño superior. Encuentre la inspiración en nuestra colección, sinónimo de elegancia perdurable y máxima resistencia."
@@ -155,6 +156,27 @@
     "viewDetailsButton": "Contáctanos por WhatsApp",
     "whatsappInquiryPrefix": "Hola, estoy interesado en:"
   },
+  "CatalogsPage": {
+    "metadata": {
+      "title": "Descargar Catálogos de Azulejos | TheHomeCeramics",
+      "description": "Descargue los catálogos de TheHomeCeramics: gama completa de porcelánicos de lujo, especificaciones y diseños inspiradores para sus proyectos."
+    },
+    "title": "Nuestros Catálogos de Azulejos",
+    "subtitle": "Explore nuestros catálogos digitales para obtener inspiración e información detallada de productos.",
+    "viewCatalogButton": "Ver Catálogo"
+  },
+  "CATALOG_ITEMS_DATA": [
+    {
+      "id": "catalog_general_2024",
+      "name": "Catálogo General 2024",
+      "description": "Descubra nuestra completa colección de azulejos de porcelana para cada estilo y aplicación. Incluye novedades y los más vendidos."
+    },
+    {
+      "id": "catalog_luxury_collection",
+      "name": "Escaparate Colección de Lujo",
+      "description": "Explore nuestra gama premium de azulejos de porcelana de lujo, con diseños exquisitos y artesanía superior para proyectos de alta gama."
+    }
+  ],
   "LanguageSwitcher": {
     "changeLanguage": "Cambiar idioma",
     "currentLanguage": {
@@ -175,3 +197,5 @@
     "tagline": "Azulejos de Porcelana de Lujo para Gustos Exigentes."
   }
 }
+
+    

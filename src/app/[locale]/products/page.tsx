@@ -2,16 +2,28 @@
 import type { Metadata } from 'next';
 import { ProductCard } from '@/components/products/ProductCard';
 import { SectionTitle } from '@/components/shared/SectionTitle';
-import { PRODUCTS } from '@/lib/data'; // Product details themselves would need translation
+import { PRODUCTS } from '@/lib/data'; 
 import { getDictionary } from '@/lib/getDictionary';
-import type { Product } from '@/types'; // Import Product type
+import type { Product } from '@/types'; 
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const dict = await getDictionary(locale);
   const pageDict = dict.ProductsPage?.metadata || {};
+  const navLinks = dict.NavLinks || {};
+  const companyName = dict.COMPANY_INFO?.name || "The Home Ceramics Atelier";
+
   return {
-    title: pageDict.title || dict.NavLinks?.products || 'Our Collection',
-    description: pageDict.description || 'Explore the full range of luxury porcelain tiles from The Home Ceramics Atelier.',
+    title: pageDict.title || `${navLinks.products || 'Our Collection'} - ${companyName}`,
+    description: pageDict.description || `Explore the full range of luxury porcelain tiles from ${companyName}.`,
+    alternates: {
+      canonical: `/${locale}/products`,
+      languages: {
+        'en': '/en/products',
+        'es': '/es/products',
+        'fr': '/fr/products',
+        'x-default': `/es/products`,
+      },
+    },
   };
 }
 
@@ -23,11 +35,10 @@ export default async function ProductsPage({ params: { locale } }: { params: { l
     finishLabel: "Finish:", 
     sizeLabel: "Size:", 
     styleLabel: "Style:", 
-    viewDetailsButton: "Chat on WhatsApp",
+    viewDetailsButton: "Contact us on WhatsApp",
     whatsappInquiryPrefix: "Hello, I'm interested in:" 
   };
 
-  // Localize product names and descriptions
   const localizedProducts = PRODUCTS.map(fallbackProduct => {
     const translatedData = dict.PRODUCTS_DATA?.find((p: any) => p.id === fallbackProduct.id);
     return {
@@ -40,7 +51,7 @@ export default async function ProductsPage({ params: { locale } }: { params: { l
   return (
     <div className="container mx-auto px-4 py-12 md:py-16 animate-in fade-in duration-500">
       <SectionTitle 
-        as="h1" // Use h1 for the main page title
+        as="h1" 
         title={t?.title || "Our Exquisite Tile Collection"}
         subtitle={t?.subtitle || "Discover the perfect porcelain tiles to elevate your space."}
       />

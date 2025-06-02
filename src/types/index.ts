@@ -15,7 +15,7 @@ export interface ProductSpecification {
 }
 
 export interface ProductImage {
-  url: string;
+  url:string;
   dataAiHint?: string;
 }
 
@@ -23,7 +23,25 @@ export interface Product {
   id: string;
   name: string;
   description: string;
-  images: ProductImage[]; // Changed from imageUrl and dataAiHint
+  images: ProductImage[];
   specifications: ProductSpecification;
   price?: string;
 }
+
+// New type for base catalog data (non-translatable)
+export interface CatalogItemBase {
+  id: string;
+  coverImageUrl: string;
+  driveLink: string;
+  dataAiHint: string;
+}
+
+// New type for localized catalog data (from dictionary)
+export interface CatalogItemLocalized {
+  id: string;
+  name: string;
+  description: string;
+}
+
+// Combined type used in the CatalogCard component
+export interface CatalogItem extends CatalogItemBase, CatalogItemLocalized {}

@@ -1,3 +1,4 @@
+
 'use client';
 
 import Link from 'next/link';
@@ -26,13 +27,30 @@ export function Header({ locale, dictionary }: HeaderProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinkKeys = Object.keys(dictionary.NavLinks || {});
-  const navLinks: NavItem[] = navLinkKeys.map(key => ({
-    href: key === 'home' ? '/' : `/${key.toLowerCase().replace(/\s+/g, '-')}`,
-    label: dictionary.NavLinks[key]
-  }));
   
-  const aboutUsLink = navLinks.find(link => link.label === dictionary.NavLinks.about);
-  if (aboutUsLink) aboutUsLink.href = "/about";
+  const navLinks: NavItem[] = navLinkKeys.map(key => {
+    let href = `/${locale}`;
+    if (key === 'home') {
+      // Home link goes to the root of the locale
+    } else if (key === 'about') { // Specific handling for 'about' to match non-slugified route
+      href += '/about';
+    } else if (key === 'products') {
+      href += '/products';
+    } else if (key === 'contact') {
+      href += '/contact';
+    } else if (key === 'catalogs') {
+      href += '/catalogs';
+    }
+     else {
+      // Default to slugified key for other links if necessary in future
+      href += `/${key.toLowerCase().replace(/\s+/g, '-')}`;
+    }
+    return {
+      href,
+      label: dictionary.NavLinks[key]
+    };
+  });
+  
 
   const companyName = dictionary.Header?.companyName || "TheHomeCeramics";
   const mobileMenuSheetTitle = dictionary.Header?.mobileMenuTitle || "Menu";
@@ -43,31 +61,27 @@ export function Header({ locale, dictionary }: HeaderProps) {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center">
         <Link href={`/${locale}`} className="mr-6 flex items-center space-x-2">
-          {/* Replace Aperture icon with Image component */}
           <Image 
             src="/image/logo.png" 
             alt={logoAltText}
-            width={28} // Adjust width as needed, maintaining aspect ratio with height
-            height={28} // h-7 is roughly 28px
-            className="h-7 w-auto" // Use w-auto to maintain aspect ratio
+            width={28} 
+            height={28} 
+            className="h-7 w-auto" 
           />
           <span className="font-bold font-headline text-lg sm:inline-block">
             {companyName}
           </span>
         </Link>
         
-        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center">
           <MainNav items={navLinks} className="flex-row gap-x-4 lg:gap-x-6" />
         </div>
 
-        <div className="ml-auto flex items-center space-x-4"> {/* Increased space-x for better separation */}
-          {/* Desktop Language Switcher */}
+        <div className="ml-auto flex items-center space-x-4">
           <div className="hidden md:block">
              <LanguageSwitcher currentLocale={locale} dictionary={dictionary} />
           </div>
 
-          {/* Mobile Navigation Trigger */}
           <div className="md:hidden">
             <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
               <SheetTrigger asChild>
@@ -81,8 +95,8 @@ export function Header({ locale, dictionary }: HeaderProps) {
                      <Image 
                         src="/image/logo.png" 
                         alt={logoAltText}
-                        width={20} // Smaller logo for mobile sheet header
-                        height={20} // h-5 is roughly 20px
+                        width={20} 
+                        height={20} 
                         className="h-5 w-auto"
                       />
                     <span className="font-bold font-headline text-md">

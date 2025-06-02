@@ -3,12 +3,13 @@
   "Metadata": {
     "defaultTitle": "Luxury Porcelain Tiles & Expert Interior Design | TheHomeCeramics",
     "templateTitle": "%s | The Home Ceramics Atelier",
-    "defaultDescription": "Discover TheHomeCeramics' exquisite collection of premium porcelain tiles. We offer timeless elegance, unparalleled durability, and unique designs for floors, walls, and bespoke architectural projects. Elevate your space with our luxury ceramics.",
+    "defaultDescription": "Discover TheHomeCeramics' exquisite collection of premium porcelain tiles. Timeless elegance, unparalleled durability, and unique designs for floors & walls. Elevate your space.",
     "keywords": ["luxury porcelain tiles", "premium ceramic tiles", "designer tiles", "interior design tiles", "modern floor tiles", "classic wall tiles", "bathroom renovation tiles", "kitchen backsplash tiles", "large format porcelain slabs", "tile showroom", "TheHomeCeramics", "durable tiles", "elegant tiling solutions", "high-end ceramics", "PORCELAIN TILE 60X120 MATT", "BRILLER CHOCO RUBIC tile", "PORCELAIN TILE 60X120 GLOSSY", "GRACIA AQUA RAINBOW tile", "PORCELAIN TILE 60X120 CARVING GROOVE LIGHT", "PORCELANICO 60X120 MATE IN/PUT TERRAZA 1032", "PORCELAIN TILE 60X120 STATUARIO GLOSSY", "PORCELAIN TILE 60X120 BABYCON ROCCIA LUPO"]
   },
   "NavLinks": {
     "home": "Home",
     "products": "Products",
+    "catalogs": "Catalogs",
     "about": "About Us",
     "contact": "Contact"
   },
@@ -19,8 +20,8 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Luxury Porcelain Tiles & Elegant Interiors | TheHomeCeramics Atelier",
-      "description": "Transform your home or commercial space with exquisite porcelain tiles from TheHomeCeramics. Browse our featured collections and discover designs that blend artistry with lasting durability for a truly sophisticated ambiance."
+      "title": "Luxury Porcelain Tiles for Elegant Spaces | TheHomeCeramics Atelier",
+      "description": "Explore TheHomeCeramics Atelier's exclusive collection of luxury porcelain tiles. Discover timeless elegance, durability, and unique designs for your interiors and exteriors."
     },
     "hero": {
       "title": "Elegance Forged in Porcelain",
@@ -75,7 +76,7 @@
     },
     {
       "id": "5",
-      "name": "PORCELAIN TILE 60X120 GLOSSY STATUARIO - PEARL STATUARIO",
+      "name": "PORCELAIN TILE 60X120 STATUARIO GLOSSY - PEARL STATUARIO",
       "description": "Achieve timeless sophistication with our PORCELAIN TILE 60X120 GLOSSY STATUARIO - PEARL STATUARIO. This large-format tile beautifully replicates the classic elegance of Statuario marble with its luminous pearl-white base and delicate grey veining. The high-gloss finish enhances its luxurious appeal, making it perfect for creating stunning statement walls, opulent floors, and refined interiors in both residential and commercial settings. Elevate your space with the enduring beauty of marble and the superior durability of porcelain."
     },
     {
@@ -93,8 +94,8 @@
   },
   "AboutPage": {
     "metadata": {
-        "title": "Our Story & Craftsmanship in Porcelain Tiles | About TheHomeCeramics",
-        "description": "Discover the story behind TheHomeCeramics. Learn about our mission to deliver exceptional luxury porcelain tiles, our commitment to quality craftsmanship, sustainable practices, and the core values that drive our passion for exquisite interior design."
+        "title": "Our Story & Craftsmanship in Porcelain | TheHomeCeramics",
+        "description": "Discover TheHomeCeramics: our mission, values, and passion for luxury porcelain tiles. Quality craftsmanship and sustainable design for exquisite interiors."
     },
     "titlePrefix": "About",
     "subtitle": "Crafting beauty and elegance, one exceptional tile at a time.",
@@ -107,8 +108,8 @@
   },
   "ContactPage": {
     "metadata": {
-        "title": "Contact Us for Porcelain Tile Expertise & Quotes | TheHomeCeramics",
-        "description": "Get in touch with TheHomeCeramics for expert advice on luxury porcelain tiles, project quotes, or dedicated support. Our team is ready to assist you in selecting the perfect tiles for your design vision."
+        "title": "Contact for Porcelain Tile Quotes | TheHomeCeramics",
+        "description": "Contact TheHomeCeramics for expert advice on luxury porcelain tiles and project quotes. We help select the perfect tiles for your design vision."
     },
     "title": "Connect With Us",
     "subtitle": "We're passionate about helping you find the perfect porcelain tiles for your prestigious project. Reach out today!",
@@ -141,8 +142,8 @@
   },
   "ProductsPage": {
     "metadata": {
-        "title": "Shop Our Full Collection of Luxury Porcelain Tiles | TheHomeCeramics",
-        "description": "Explore the complete catalog of TheHomeCeramics's luxury porcelain tiles. Discover an extensive range of styles, finishes, and sizes, including large format slabs, perfect for your sophisticated residential or commercial interior design project."
+        "title": "Luxury Porcelain Tile Collection | TheHomeCeramics",
+        "description": "Full catalog of TheHomeCeramics luxury porcelain tiles. Wide range of styles, finishes & large formats for your interior design project."
     },
     "title": "Our Exquisite Tile Collection",
     "subtitle": "Elevate your spaces with superior design porcelain tiles. Find inspiration in our collection, synonymous with enduring elegance and maximum resilience."
@@ -155,6 +156,27 @@
     "viewDetailsButton": "Contact us on WhatsApp",
     "whatsappInquiryPrefix": "Hello, I'm interested in:"
   },
+  "CatalogsPage": {
+    "metadata": {
+      "title": "Download Tile Catalogs | TheHomeCeramics",
+      "description": "Access TheHomeCeramics catalogs: full range of luxury porcelain tiles, specs, and inspiring designs for your projects."
+    },
+    "title": "Our Tile Catalogs",
+    "subtitle": "Browse our digital catalogs for inspiration and detailed product information.",
+    "viewCatalogButton": "View Catalog"
+  },
+  "CATALOG_ITEMS_DATA": [
+    {
+      "id": "catalog_general_2024",
+      "name": "General Catalog 2024",
+      "description": "Discover our comprehensive collection of porcelain tiles for every style and application. Includes new arrivals and best-sellers."
+    },
+    {
+      "id": "catalog_luxury_collection",
+      "name": "Luxury Collection Showcase",
+      "description": "Explore our premium range of luxury porcelain tiles, featuring exquisite designs and superior craftsmanship for high-end projects."
+    }
+  ],
   "LanguageSwitcher": {
     "changeLanguage": "Change language",
     "currentLanguage": {
@@ -175,3 +197,5 @@
     "tagline": "Luxury Porcelain Tiles for Discerning Tastes."
   }
 }
+
+    

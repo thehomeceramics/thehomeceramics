@@ -1,14 +1,15 @@
 
 {
   "Metadata": {
-    "defaultTitle": "Carreaux de Porcelaine de Luxe & Design d'Intérieur Expert | TheHomeCeramics",
+    "defaultTitle": "Carreaux de Porcelaine de Luxe & Design d'Intérieur | TheHomeCeramics",
     "templateTitle": "%s | The Home Ceramics Atelier",
-    "defaultDescription": "Découvrez la collection exquise de carreaux de porcelaine haut de gamme de TheHomeCeramics. Nous offrons une élégance intemporelle, une durabilité inégalée et des designs uniques pour sols, murs et projets architecturaux sur mesure. Sublimez votre espace avec notre céramique de luxe.",
+    "defaultDescription": "Découvrez la collection exquise de carreaux de porcelaine premium de TheHomeCeramics. Élégance intemporelle, durabilité et designs uniques pour sols et murs. Sublimez votre espace.",
     "keywords": ["carreaux de porcelaine de luxe", "carrelage céramique premium", "carreaux de designer", "carreaux design d'intérieur", "carrelage sol moderne", "carrelage mural classique", "carreaux rénovation salle de bain", "carreaux crédence cuisine", "dalles en porcelaine grand format", "showroom carrelage", "TheHomeCeramics", "carreaux durables", "solutions de carrelage élégantes", "céramique haut de gamme", "GRÈS CÉRAME 60X120 MAT", "carreau BRILLER CHOCO RUBIC", "GRÈS CÉRAME 60X120 BRILLANT", "carreau GRACIA AQUA RAINBOW", "GRÈS CÉRAME 60X120 CARVING GROOVE LIGHT", "GRÈS CÉRAME 60X120 MAT IN/PUT TERRAZA 1032", "GRÈS CÉRAME 60X120 STATUARIO BRILLANT", "GRÈS CÉRAME 60X120 BABYCON ROCCIA LUPO"]
   },
   "NavLinks": {
     "home": "Accueil",
     "products": "Produits",
+    "catalogs": "Catalogues",
     "about": "À Propos",
     "contact": "Contact"
   },
@@ -19,8 +20,8 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Carreaux Porcelaine Luxe & Intérieurs Élégants | TheHomeCeramics Atelier",
-      "description": "Transformez votre maison ou espace commercial avec les carreaux de porcelaine exquis de TheHomeCeramics. Parcourez nos collections vedettes et découvrez des designs qui allient talent artistique et durabilité pour une ambiance véritablement sophistiquée."
+      "title": "Carreaux de Porcelaine de Luxe pour Espaces Élégants | TheHomeCeramics",
+      "description": "Explorez la collection exclusive de carreaux de porcelaine de luxe de TheHomeCeramics Atelier. Découvrez élégance intemporelle, durabilité et designs uniques pour vos intérieurs et extérieurs."
     },
     "hero": {
       "title": "L'Élégance Forgée en Porcelaine",
@@ -93,8 +94,8 @@
   },
   "AboutPage": {
     "metadata": {
-        "title": "Notre Histoire & Savoir-Faire en Carreaux de Porcelaine | À Propos de TheHomeCeramics",
-        "description": "Découvrez l'histoire de TheHomeCeramics. Apprenez-en davantage sur notre mission de fournir des carreaux de porcelaine de luxe exceptionnels, notre engagement envers un savoir-faire de qualité, des pratiques durables et les valeurs fondamentales qui animent notre passion pour un design d'intérieur exquis."
+        "title": "Notre Histoire et Savoir-Faire en Porcelaine | TheHomeCeramics",
+        "description": "Découvrez TheHomeCeramics : notre mission, nos valeurs et notre passion pour les carreaux de porcelaine de luxe. Savoir-faire de qualité et design durable."
     },
     "titlePrefix": "À Propos de",
     "subtitle": "Façonner la beauté et l'élégance, un carreau d'exception à la fois.",
@@ -107,8 +108,8 @@
   },
   "ContactPage": {
     "metadata": {
-        "title": "Contactez-Nous pour Expertise & Devis Carreaux Porcelaine | TheHomeCeramics",
-        "description": "Prenez contact avec TheHomeCeramics pour des conseils d'experts sur les carreaux de porcelaine de luxe, des devis de projets ou un support dédié. Notre équipe est prête à vous aider à sélectionner les carreaux parfaits pour votre vision du design."
+        "title": "Contact pour Devis Carreaux Porcelaine | TheHomeCeramics",
+        "description": "Contactez TheHomeCeramics pour des conseils experts sur les carreaux de porcelaine de luxe et des devis. Nous aidons à choisir les carreaux parfaits."
     },
     "title": "Connectez-vous avec Nous",
     "subtitle": "Nous sommes passionnés par l'idée de vous aider à trouver les carreaux de porcelaine parfaits pour votre projet prestigieux. Contactez-nous dès aujourd'hui !",
@@ -117,7 +118,7 @@
     "emailUs": "Envoyez-nous un E-mail",
     "callUs": "Appelez-Nous",
     "visitUs": "Visitez Notre Showroom",
-    "businessHoursTitle": "Heures d'Ouverture",
+     "businessHoursTitle": "Heures d'Ouverture",
      "businessHours": {
         "line1": "Lundi - Vendredi : 9h00 - 18h00",
         "line2": "Samedi : 10h00 - 16h00 (Sur Rendez-vous)",
@@ -141,8 +142,8 @@
   },
   "ProductsPage": {
      "metadata": {
-        "title": "Achetez Notre Collection Complète de Carreaux de Porcelaine de Luxe | TheHomeCeramics",
-        "description": "Explorez le catalogue complet des carreaux de porcelaine de luxe de TheHomeCeramics. Découvrez une vaste gamme de styles, finitions et tailles, y compris des dalles grand format, parfaits pour votre projet sophistiqué de design d'intérieur résidentiel ou commercial."
+        "title": "Collection Carreaux Porcelaine de Luxe | TheHomeCeramics",
+        "description": "Catalogue complet de carreaux de porcelaine de luxe TheHomeCeramics. Vaste gamme de styles, finitions et grands formats pour votre projet."
     },
     "title": "Notre Collection Exquise de Carreaux",
     "subtitle": "Sublimez vos espaces avec des carreaux en grès cérame au design supérieur. Trouvez l'inspiration dans notre collection, synonyme d'élégance durable et de résistance maximale."
@@ -155,6 +156,27 @@
     "viewDetailsButton": "Contactez-nous sur WhatsApp",
     "whatsappInquiryPrefix": "Bonjour, je suis intéressé(e) par:"
   },
+  "CatalogsPage": {
+    "metadata": {
+      "title": "Télécharger Catalogues Carreaux | TheHomeCeramics",
+      "description": "Accédez aux catalogues TheHomeCeramics : gamme complète de carreaux de porcelaine de luxe, spécifications et designs inspirants."
+    },
+    "title": "Nos Catalogues de Carreaux",
+    "subtitle": "Parcourez nos catalogues numériques pour trouver l'inspiration et des informations détaillées sur les produits.",
+    "viewCatalogButton": "Voir le Catalogue"
+  },
+  "CATALOG_ITEMS_DATA": [
+    {
+      "id": "catalog_general_2024",
+      "name": "Catalogue Général 2024",
+      "description": "Découvrez notre collection complète de carreaux de porcelaine pour tous les styles et applications. Inclut les nouveautés et les best-sellers."
+    },
+    {
+      "id": "catalog_luxury_collection",
+      "name": "Vitrine Collection de Luxe",
+      "description": "Explorez notre gamme premium de carreaux de porcelaine de luxe, avec des designs exquis et un savoir-faire supérieur pour les projets haut de gamme."
+    }
+  ],
   "LanguageSwitcher": {
     "changeLanguage": "Changer de langue",
     "currentLanguage": {
@@ -175,3 +197,5 @@
     "tagline": "Carreaux de Porcelaine de Luxe pour des Goûts Exigeants."
   }
 }
+
+    

@@ -1,7 +1,8 @@
+
 import type { Metadata } from 'next';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { SectionTitle } from '@/components/shared/SectionTitle';
-import { CONTACT_DETAILS } from '@/lib/data'; // CONTACT_DETAILS needs translation
+import { CONTACT_DETAILS } from '@/lib/data'; 
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { getDictionary } from '@/lib/getDictionary';
@@ -10,16 +11,27 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   const dict = await getDictionary(locale);
   const pageDict = dict.ContactPage?.metadata || {};
   const companyName = dict.COMPANY_INFO?.name || "The Home Ceramics Atelier";
+  const navLinks = dict.NavLinks || {};
+
   return {
-    title: pageDict.title || dict.NavLinks?.contact || 'Contact Us',
+    title: pageDict.title || `${navLinks.contact || 'Contact Us'} - ${companyName}`,
     description: pageDict.description || `Get in touch with ${companyName} for inquiries, quotes, or support.`,
+    alternates: {
+      canonical: `/${locale}/contact`,
+      languages: {
+        'en': '/en/contact',
+        'es': '/es/contact',
+        'fr': '/fr/contact',
+        'x-default': `/es/contact`,
+      },
+    },
   };
 }
 
 export default async function ContactPage({ params: { locale } }: { params: { locale: string } }) {
   const dict = await getDictionary(locale);
   const t = dict.ContactPage;
-  const contactDetails = { // Merge or use translated version
+  const contactDetails = { 
     email: dict.CONTACT_DETAILS?.email || CONTACT_DETAILS.email,
     phone: dict.CONTACT_DETAILS?.phone || CONTACT_DETAILS.phone,
     address: dict.CONTACT_DETAILS?.address || CONTACT_DETAILS.address,
@@ -34,7 +46,7 @@ export default async function ContactPage({ params: { locale } }: { params: { lo
   return (
     <div className="container mx-auto px-4 py-12 md:py-16 animate-in fade-in duration-500">
       <SectionTitle 
-        as="h1" // Use h1 for the main page title
+        as="h1" 
         title={t?.title || "Get In Touch"}
         subtitle={t?.subtitle || "We're here to help you find the perfect tiles for your project."}
       />
@@ -46,7 +58,7 @@ export default async function ContactPage({ params: { locale } }: { params: { lo
               <CardTitle className="font-headline text-2xl text-primary">{t?.formTitle || "Send Us a Message"}</CardTitle>
             </CardHeader>
             <CardContent>
-              <ContactForm /> {/* ContactForm will need internal translations for labels/placeholders */}
+              <ContactForm /> 
             </CardContent>
           </Card>
         </div>
@@ -100,3 +112,5 @@ export default async function ContactPage({ params: { locale } }: { params: { lo
     </div>
   );
 }
+
+    
