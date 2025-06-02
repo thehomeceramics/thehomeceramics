@@ -1,10 +1,10 @@
 
 {
   "Metadata": {
-    "defaultTitle": "Azulejos de Porcelana de Lujo y Diseño Experto | TheHomeCeramics",
+    "defaultTitle": "Porcelánicos de Lujo | TheHomeCeramics Atelier",
     "templateTitle": "%s | The Home Ceramics Atelier",
-    "defaultDescription": "Descubra la exquisita colección de porcelánicos premium de TheHomeCeramics. Elegancia atemporal, durabilidad y diseños únicos para suelos y paredes. Eleve su espacio.",
-    "keywords": ["azulejos de porcelana de lujo", "baldosas cerámicas premium", "azulejos de diseño", "azulejos para diseño de interiores", "pavimentos modernos", "revestimientos clásicos", "azulejos para reforma de baño", "azulejos para cocina", "láminas porcelánicas gran formato", "exposición de azulejos", "TheHomeCeramics", "azulejos duraderos", "soluciones elegantes en alicatado", "cerámica de alta gama", "PORCELANICO 60X120 MATE", "azulejo BRILLER CHOCO RUBIC", "PORCELANICO 60X120 BRILLO", "azulejo GRACIA AQUA RAINBOW", "PORCELANICO 60X120 CARVING GROOVE LIGHT", "PORCELANICO 60X120 MATE IN/PUT TERRAZA 1032", "PORCELANICO 60X120 STATUARIO BRILLO", "PORCELANICO 60X120 BABYCON ROCCIA LUPO"]
+    "defaultDescription": "Descubra porcelánicos de lujo en TheHomeCeramics. Elegancia, durabilidad y diseños únicos para suelos y paredes. Explore nuestra colección.",
+    "keywords": ["porcelánicos de lujo", "baldosas cerámicas premium", "azulejos de diseño", "diseño de interiores", "pavimentos modernos", "revestimientos clásicos", "TheHomeCeramics"]
   },
   "NavLinks": {
     "home": "Inicio",
@@ -20,8 +20,8 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Porcelánicos de Lujo para Espacios Elegantes | TheHomeCeramics Atelier",
-      "description": "Explore la colección exclusiva de porcelánicos de lujo de TheHomeCeramics Atelier. Descubra elegancia atemporal, durabilidad y diseños únicos para sus interiores y exteriores."
+      "title": "TheHomeCeramics Atelier - Porcelánicos de Lujo para Interiores",
+      "description": "Eleve su hogar con porcelánicos de lujo de TheHomeCeramics. Descubra nuestra exquisita colección para elegancia atemporal y durabilidad superior en diseño de interiores."
     },
     "hero": {
       "title": "Elegancia Forjada en Porcelana",
@@ -94,8 +94,8 @@
   },
   "AboutPage": {
     "metadata": {
-        "title": "Historia y Artesanía en Porcelánicos | TheHomeCeramics",
-        "description": "Conozca TheHomeCeramics: nuestra misión, valores y pasión por los porcelánicos de lujo. Calidad artesanal y diseño sostenible para interiores exquisitos."
+        "title": "Nuestra Historia: Creando Porcelánicos de Lujo - TheHomeCeramics",
+        "description": "Descubra la trayectoria, misión y valores de TheHomeCeramics. Conozca nuestro compromiso con la calidad, el diseño y los porcelánicos de lujo sostenibles."
     },
     "titlePrefix": "Sobre",
     "subtitle": "Creando belleza y elegancia, un azulejo excepcional a la vez.",
@@ -108,8 +108,8 @@
   },
   "ContactPage": {
     "metadata": {
-        "title": "Contacto y Presupuestos Porcelánico | TheHomeCeramics",
-        "description": "Contacte TheHomeCeramics para asesoría en porcelánicos de lujo y presupuestos. Ayudamos a seleccionar los azulejos perfectos para su proyecto."
+        "title": "Contacto: Asesoramiento Experto en Porcelánicos - TheHomeCeramics",
+        "description": "Contacte con TheHomeCeramics para asesoramiento experto, presupuestos y soporte para sus necesidades de porcelánicos de lujo. Creamos espacios hermosos."
     },
     "title": "Conéctese con Nosotros",
     "subtitle": "Nos apasiona ayudarle a encontrar los azulejos de porcelana perfectos para su prestigioso proyecto. ¡Contáctenos hoy!",
@@ -142,8 +142,8 @@
   },
   "ProductsPage": {
     "metadata": {
-        "title": "Colección Porcelánicos de Lujo | TheHomeCeramics",
-        "description": "Catálogo completo de porcelánicos de lujo TheHomeCeramics. Variedad de estilos, acabados y grandes formatos para su proyecto de diseño interior."
+        "title": "Colección de Porcelánicos de Lujo - TheHomeCeramics",
+        "description": "Explore la gama completa de porcelánicos de lujo de TheHomeCeramics. Descubra diversos estilos, acabados y grandes formatos para su proyecto de diseño."
     },
     "title": "Nuestra Exquisita Colección de Azulejos",
     "subtitle": "Eleve sus espacios con porcelánicos de diseño superior. Encuentre la inspiración en nuestra colección, sinónimo de elegancia perdurable y máxima resistencia."
@@ -158,23 +158,50 @@
   },
   "CatalogsPage": {
     "metadata": {
-      "title": "Descargar Catálogos de Azulejos | TheHomeCeramics",
-      "description": "Descargue los catálogos de TheHomeCeramics: gama completa de porcelánicos de lujo, especificaciones y diseños inspiradores para sus proyectos."
+      "title": "Descargar Catálogos de Azulejos - TheHomeCeramics",
+      "description": "Acceda a los últimos catálogos de TheHomeCeramics. Explore nuestra gama completa de porcelánicos de lujo, especificaciones y diseños inspiradores. Descargue PDFs ahora."
     },
     "title": "Nuestros Catálogos de Azulejos",
-    "subtitle": "Explore nuestros catálogos digitales para obtener inspiración e información detallada de productos.",
-    "viewCatalogButton": "Ver Catálogo"
+    "subtitle": "Explore nuestros catálogos digitales para obtener inspiración e información detallada de productos. Descargue para ver sin conexión.",
+    "polishedGlossySectionTitle": "Catálogos de Porcelánicos Pulidos y Brillantes",
+    "viewCatalogButton": "Ver Catálogo",
+    "noCatalogs": "No hay catálogos disponibles en este momento. ¡Por favor, vuelva a consultar pronto!"
   },
   "CATALOG_ITEMS_DATA": [
     {
-      "id": "catalog_general_2024",
-      "name": "Catálogo General 2024",
-      "description": "Descubra nuestra completa colección de azulejos de porcelana para cada estilo y aplicación. Incluye novedades y los más vendidos."
+      "id": "catalog_600x600_glossy",
+      "name": "Catálogo Porcelánicos Brillantes 600x600mm (V2)",
+      "description": "Descubra nuestra colección premium de porcelánicos brillantes 600x600mm (V2). Perfectos para interiores modernos y luminosos, con acabados de alto brillo. Descargue para inspiración y explore estilos."
     },
     {
-      "id": "catalog_luxury_collection",
-      "name": "Escaparate Colección de Lujo",
-      "description": "Explore nuestra gama premium de azulejos de porcelana de lujo, con diseños exquisitos y artesanía superior para proyectos de alta gama."
+      "id": "catalog_600x600_glossy_v1",
+      "name": "Porcelánicos Brillantes 600x600mm - Colección V1",
+      "description": "Sumérjase en la Colección V1 de nuestros porcelánicos brillantes 600x600mm. Diseños vibrantes para espacios elegantes y luminosos. Descárguelo para inspiración y especificaciones."
+    },
+    {
+      "id": "catalog_600x600_glossy_endless",
+      "name": "Porcelánicos Brillantes Continuos 600x600mm - Vol. 3",
+      "description": "Descubra la colección 'Endless' (Vol. 3) de porcelánicos brillantes 600x600mm. Patrones continuos para diseños expansivos. Descargue para opciones sofisticadas que redefinen el lujo."
+    },
+    {
+      "id": "catalog_600x600_glossy_decore",
+      "name": "Catálogo Decore Mega y Porcelánicos Decorativos Brillantes 600x600mm",
+      "description": "Explore la serie Decore Mega y nuestros porcelánicos decorativos brillantes 600x600mm. Patrones únicos y diseños vibrantes para paredes de acento. Descargue para un mundo de posibilidades."
+    },
+    {
+      "id": "catalog_600x600_bookmatch_glossy",
+      "name": "Catálogo Porcelánicos Bookmatch Brillantes 600x600mm",
+      "description": "Descubra el arte del diseño continuo con Porcelánicos Bookmatch Brillantes 600x600mm. Cree patrones tipo mármol para paredes y suelos de lujo. Descargue el catálogo para inspirarse."
+    },
+    {
+      "id": "catalog_600x600_statuario_glossy",
+      "name": "Catálogo Porcelánicos Statuario Acabado Brillante 600x600mm",
+      "description": "Elegancia atemporal con porcelánicos brillantes efecto mármol Statuario. Colección 600x600mm de lujo y durabilidad. Descargue para ver la gama completa e inspirar su proyecto."
+    },
+    {
+      "id": "catalog_600x600_multicolor_glossy",
+      "name": "Catálogo Porcelánicos Multicolor Brillantes 600x600mm Vibrantes",
+      "description": "Desate creatividad con Porcelánicos Multicolor Brillantes 600x600mm. Tonos vibrantes y patrones dinámicos para diseños únicos. Descargue para inspiración deslumbrante."
     }
   ],
   "LanguageSwitcher": {
@@ -197,5 +224,3 @@
     "tagline": "Azulejos de Porcelana de Lujo para Gustos Exigentes."
   }
 }
-
-    

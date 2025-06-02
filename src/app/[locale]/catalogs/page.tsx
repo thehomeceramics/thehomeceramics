@@ -41,6 +41,10 @@ export default async function CatalogsPage({ params: { locale } }: { params: { l
     };
   });
 
+  // Assuming all current catalogs are for "Polished & Glossy Tiles"
+  // In the future, you might filter or group catalogs by a category property
+  const polishedGlossyCatalogs = localizedCatalogs; 
+
   return (
     <div className="container mx-auto px-4 py-12 md:py-16 animate-in fade-in duration-500">
       <SectionTitle 
@@ -48,17 +52,30 @@ export default async function CatalogsPage({ params: { locale } }: { params: { l
         title={t?.title || navLinks.catalogs || "Our Catalogs"}
         subtitle={t?.subtitle || "Browse our digital catalogs for detailed product information and inspiration."}
       />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-        {localizedCatalogs.map((catalog: CatalogItem, index: number) => ( 
-          <div 
-            key={catalog.id} 
-            className="animate-in fade-in slide-in-from-bottom-8 duration-700"
-            style={{ animationDelay: `${index * 100}ms` }}
-          >
-            <CatalogCard catalog={catalog} viewButtonText={t?.viewCatalogButton || "View Catalog"} /> 
+
+      {polishedGlossyCatalogs.length > 0 && t?.polishedGlossySectionTitle && (
+        <div className="mt-12 mb-8"> {/* Added margin for spacing */}
+          <SectionTitle
+            as="h2" // Use h2 for section titles
+            title={t.polishedGlossySectionTitle}
+            titleClassName="text-3xl md:text-4xl" // Slightly smaller than page title
+            // subtitle="Explore our range of high-shine finishes" // Optional subtitle for this section
+            className="mb-6 md:mb-8" // Adjust bottom margin for this section title
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {polishedGlossyCatalogs.map((catalog: CatalogItem, index: number) => ( 
+              <div 
+                key={catalog.id} 
+                className="animate-in fade-in slide-in-from-bottom-8 duration-700"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <CatalogCard catalog={catalog} viewButtonText={t?.viewCatalogButton || "View Catalog"} /> 
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      )}
+      
       {localizedCatalogs.length === 0 && (
         <p className="text-center text-muted-foreground mt-8">
           {t?.noCatalogs || "No catalogs available at the moment. Please check back soon!"}

@@ -1,10 +1,10 @@
 
 {
   "Metadata": {
-    "defaultTitle": "Carreaux de Porcelaine de Luxe & Design d'Intérieur | TheHomeCeramics",
+    "defaultTitle": "Carreaux de Porcelaine Luxe | TheHomeCeramics",
     "templateTitle": "%s | The Home Ceramics Atelier",
-    "defaultDescription": "Découvrez la collection exquise de carreaux de porcelaine premium de TheHomeCeramics. Élégance intemporelle, durabilité et designs uniques pour sols et murs. Sublimez votre espace.",
-    "keywords": ["carreaux de porcelaine de luxe", "carrelage céramique premium", "carreaux de designer", "carreaux design d'intérieur", "carrelage sol moderne", "carrelage mural classique", "carreaux rénovation salle de bain", "carreaux crédence cuisine", "dalles en porcelaine grand format", "showroom carrelage", "TheHomeCeramics", "carreaux durables", "solutions de carrelage élégantes", "céramique haut de gamme", "GRÈS CÉRAME 60X120 MAT", "carreau BRILLER CHOCO RUBIC", "GRÈS CÉRAME 60X120 BRILLANT", "carreau GRACIA AQUA RAINBOW", "GRÈS CÉRAME 60X120 CARVING GROOVE LIGHT", "GRÈS CÉRAME 60X120 MAT IN/PUT TERRAZA 1032", "GRÈS CÉRAME 60X120 STATUARIO BRILLANT", "GRÈS CÉRAME 60X120 BABYCON ROCCIA LUPO"]
+    "defaultDescription": "Découvrez les carreaux de porcelaine TheHomeCeramics. Élégance, durabilité et designs uniques pour sols et murs. Explorez notre collection.",
+    "keywords": ["carreaux de porcelaine luxe", "carrelage céramique premium", "carreaux designer", "design intérieur", "carrelage sol moderne", "carrelage mural classique", "TheHomeCeramics"]
   },
   "NavLinks": {
     "home": "Accueil",
@@ -20,8 +20,8 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Carreaux de Porcelaine de Luxe pour Espaces Élégants | TheHomeCeramics",
-      "description": "Explorez la collection exclusive de carreaux de porcelaine de luxe de TheHomeCeramics Atelier. Découvrez élégance intemporelle, durabilité et designs uniques pour vos intérieurs et extérieurs."
+      "title": "TheHomeCeramics Atelier - Carreaux de Luxe pour Intérieurs Élégants",
+      "description": "Sublimez votre intérieur avec les carreaux de porcelaine de luxe de TheHomeCeramics. Découvrez notre collection exquise pour une élégance intemporelle et une durabilité supérieure."
     },
     "hero": {
       "title": "L'Élégance Forgée en Porcelaine",
@@ -94,8 +94,8 @@
   },
   "AboutPage": {
     "metadata": {
-        "title": "Notre Histoire et Savoir-Faire en Porcelaine | TheHomeCeramics",
-        "description": "Découvrez TheHomeCeramics : notre mission, nos valeurs et notre passion pour les carreaux de porcelaine de luxe. Savoir-faire de qualité et design durable."
+        "title": "Notre Histoire : Création de Carreaux de Luxe - TheHomeCeramics",
+        "description": "Découvrez le parcours, la mission et les valeurs de TheHomeCeramics. Apprenez notre engagement envers la qualité, le design et les carreaux de porcelaine de luxe durables."
     },
     "titlePrefix": "À Propos de",
     "subtitle": "Façonner la beauté et l'élégance, un carreau d'exception à la fois.",
@@ -108,8 +108,8 @@
   },
   "ContactPage": {
     "metadata": {
-        "title": "Contact pour Devis Carreaux Porcelaine | TheHomeCeramics",
-        "description": "Contactez TheHomeCeramics pour des conseils experts sur les carreaux de porcelaine de luxe et des devis. Nous aidons à choisir les carreaux parfaits."
+        "title": "Contactez-nous : Conseil Carrelage Expert - TheHomeCeramics",
+        "description": "Contactez TheHomeCeramics pour des conseils d'experts, devis et assistance pour vos besoins en carreaux de porcelaine de luxe. Créons de beaux espaces."
     },
     "title": "Connectez-vous avec Nous",
     "subtitle": "Nous sommes passionnés par l'idée de vous aider à trouver les carreaux de porcelaine parfaits pour votre projet prestigieux. Contactez-nous dès aujourd'hui !",
@@ -142,8 +142,8 @@
   },
   "ProductsPage": {
      "metadata": {
-        "title": "Collection Carreaux Porcelaine de Luxe | TheHomeCeramics",
-        "description": "Catalogue complet de carreaux de porcelaine de luxe TheHomeCeramics. Vaste gamme de styles, finitions et grands formats pour votre projet."
+        "title": "Collection Carreaux Porcelaine Luxe - TheHomeCeramics",
+        "description": "Explorez la gamme complète de carreaux de porcelaine de luxe TheHomeCeramics. Découvrez divers styles, finitions et grands formats pour votre projet."
     },
     "title": "Notre Collection Exquise de Carreaux",
     "subtitle": "Sublimez vos espaces avec des carreaux en grès cérame au design supérieur. Trouvez l'inspiration dans notre collection, synonyme d'élégance durable et de résistance maximale."
@@ -158,23 +158,50 @@
   },
   "CatalogsPage": {
     "metadata": {
-      "title": "Télécharger Catalogues Carreaux | TheHomeCeramics",
-      "description": "Accédez aux catalogues TheHomeCeramics : gamme complète de carreaux de porcelaine de luxe, spécifications et designs inspirants."
+      "title": "Télécharger Catalogues Carreaux - TheHomeCeramics",
+      "description": "Accédez aux derniers catalogues TheHomeCeramics. Explorez notre gamme complète de carreaux de porcelaine de luxe, spécifications et designs inspirants. Téléchargez les PDF."
     },
     "title": "Nos Catalogues de Carreaux",
-    "subtitle": "Parcourez nos catalogues numériques pour trouver l'inspiration et des informations détaillées sur les produits.",
-    "viewCatalogButton": "Voir le Catalogue"
+    "subtitle": "Parcourez nos catalogues numériques pour trouver l'inspiration et des informations détaillées sur les produits. Téléchargez pour consulter hors ligne.",
+    "polishedGlossySectionTitle": "Catalogues de Carreaux de Porcelaine Polis et Brillants",
+    "viewCatalogButton": "Voir le Catalogue",
+    "noCatalogs": "Aucun catalogue disponible pour le moment. Veuillez revenir bientôt !"
   },
   "CATALOG_ITEMS_DATA": [
     {
-      "id": "catalog_general_2024",
-      "name": "Catalogue Général 2024",
-      "description": "Découvrez notre collection complète de carreaux de porcelaine pour tous les styles et applications. Inclut les nouveautés et les best-sellers."
+      "id": "catalog_600x600_glossy",
+      "name": "Catalogue Carreaux Porcelaine Brillants 600x600mm (V2)",
+      "description": "Découvrez notre collection premium de carreaux porcelaine brillants 600x600mm (V2). Parfaits pour intérieurs modernes et lumineux, offrant des finitions ultra-brillantes. Téléchargez pour inspiration."
     },
     {
-      "id": "catalog_luxury_collection",
-      "name": "Vitrine Collection de Luxe",
-      "description": "Explorez notre gamme premium de carreaux de porcelaine de luxe, avec des designs exquis et un savoir-faire supérieur pour les projets haut de gamme."
+      "id": "catalog_600x600_glossy_v1",
+      "name": "Carreaux de Porcelaine Brillants 600x600mm - Collection V1",
+      "description": "Plongez dans la Collection V1 de nos carreaux porcelaine brillants 600x600mm. Motifs vibrants pour espaces élégants. Téléchargez pour inspiration et spécifications."
+    },
+    {
+      "id": "catalog_600x600_glossy_endless",
+      "name": "Carreaux de Porcelaine Brillants Continus 600x600mm - Vol. 3",
+      "description": "Dévoilez la collection 'Endless' (Vol. 3) de carreaux porcelaine brillants 600x600mm. Motifs continus pour designs expansifs. Téléchargez pour options sophistiquées qui redéfinissent le luxe."
+    },
+    {
+      "id": "catalog_600x600_glossy_decore",
+      "name": "Catalogue Decore Mega et Carreaux Décoratifs Brillants 600x600mm",
+      "description": "Explorez la série Decore Mega et nos carreaux porcelaine décoratifs brillants 600x600mm. Motifs uniques pour murs d'accent. Téléchargez pour un monde de possibilités."
+    },
+    {
+      "id": "catalog_600x600_bookmatch_glossy",
+      "name": "Catalogue Carreaux de Porcelaine Bookmatch Brillants 600x600mm",
+      "description": "L'art du design continu avec nos Carreaux Porcelaine Bookmatch Brillants 600x600mm. Créez des motifs marbrés pour murs et sols de luxe. Téléchargez le catalogue pour l'inspiration."
+    },
+    {
+      "id": "catalog_600x600_statuario_glossy",
+      "name": "Catalogue Carreaux Finition Brillante Statuario 600x600mm",
+      "description": "Élégance intemporelle avec nos carreaux porcelaine brillants effet marbre Statuario. Collection 600x600mm luxueuse et durable. Téléchargez pour voir la gamme et inspirer votre projet."
+    },
+    {
+      "id": "catalog_600x600_multicolor_glossy",
+      "name": "Catalogue Carreaux Brillants Multicolores Vibrants 600x600mm",
+      "description": "Libérez créativité avec nos Carreaux Porcelaine Brillants Multicolores 600x600mm. Teintes vibrantes et motifs dynamiques pour designs uniques. Téléchargez pour inspiration éblouissante."
     }
   ],
   "LanguageSwitcher": {
@@ -197,5 +224,3 @@
     "tagline": "Carreaux de Porcelaine de Luxe pour des Goûts Exigeants."
   }
 }
-
-    

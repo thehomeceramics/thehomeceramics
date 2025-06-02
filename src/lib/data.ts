@@ -128,15 +128,46 @@ export const CONTACT_DETAILS = {
 // Base data for catalogs (non-translatable parts)
 export const CATALOGS_BASE_DATA: CatalogItemBase[] = [
   {
-    id: 'catalog_general_2024',
-    coverImageUrl: 'https://placehold.co/300x424.png', // A4-like aspect ratio
-    driveLink: 'YOUR_GOOGLE_DRIVE_LINK_FOR_CATALOG_1', // Replace with actual link
-    dataAiHint: 'tile catalog cover',
+    id: 'catalog_600x600_glossy',
+    coverImageUrl: '/image/polished_glossy_tiles/2_600x600mm_glossy_v2.jpg',
+    driveLink: 'https://drive.google.com/file/d/16dZeT2ZKe6EPmxq4JcnmP9MFps8Vej20/view?usp=sharing',
+    dataAiHint: '600x600 glossy tiles',
   },
   {
-    id: 'catalog_luxury_collection',
-    coverImageUrl: 'https://placehold.co/300x424.png',
-    driveLink: 'YOUR_GOOGLE_DRIVE_LINK_FOR_CATALOG_2', // Replace with actual link
-    dataAiHint: 'luxury tile catalog',
+    id: 'catalog_600x600_glossy_v1',
+    coverImageUrl: '/image/polished_glossy_tiles/1_600x600mm_glossy_v1.jpg',
+    driveLink: 'https://drive.google.com/file/d/1MxnlZGOdqiyC9rjgf_8QUqillsYxDiNC/view?usp=sharing',
+    dataAiHint: '600x600 glossy collection v1',
   },
+  {
+    id: 'catalog_600x600_glossy_endless',
+    coverImageUrl: '/image/polished_glossy_tiles/3_600x600mm_glossy_endless.jpg',
+    driveLink: 'https://drive.google.com/file/d/1KUJehjh8iyI7YdE_nFt1_xAn9UpwOgr9/view?usp=sharing',
+    dataAiHint: '600x600 glossy endless patterns',
+  },
+  {
+    id: 'catalog_600x600_glossy_decore',
+    coverImageUrl: '/image/polished_glossy_tiles/4_600x600mm_glossy_decoremega_600x600mm_glossy_decore.jpg',
+    driveLink: 'https://drive.google.com/file/d/1fZq-OGsjcZNnzwMOazZdeBKAXruOmndy/view?usp=sharing',
+    dataAiHint: '600x600 glossy decore mega',
+  },
+  {
+    id: 'catalog_600x600_bookmatch_glossy',
+    coverImageUrl: '/image/polished_glossy_tiles/5_600x600mm_bookmatch_glossy_finish.jpg',
+    driveLink: 'https://drive.google.com/file/d/1S4NyoKv8l3npPym-4-VI0yseSTu7V2ey/view?usp=sharing',
+    dataAiHint: '600x600 bookmatch glossy',
+  },
+  {
+    id: 'catalog_600x600_statuario_glossy',
+    coverImageUrl: '/image/polished_glossy_tiles/6_600x600mm_statuario_glossy_finish.jpg',
+    driveLink: 'https://drive.google.com/file/d/1j8M5KwD4PQulaoPy7ZTrK5uIBk-miznZ/view?usp=sharing',
+    dataAiHint: '600x600 statuario glossy finish',
+  },
+  {
+    id: 'catalog_600x600_multicolor_glossy',
+    coverImageUrl: '/image/polished_glossy_tiles/7_600x600mm_multicolor_glossy_finish.jpg',
+    driveLink: 'https://drive.google.com/file/d/1KR83o440AWZMMFgrvN2u4U1MV2R6MNPr/view?usp=sharing',
+    dataAiHint: '600x600 multicolor glossy',
+  }
 ];
+    

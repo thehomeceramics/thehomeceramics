@@ -1,15 +1,15 @@
 
 import type { Metadata } from 'next';
-import './globals.css';
-import { Toaster } from "@/components/ui/toaster";
+// Global CSS and font links will be moved to src/app/[locale]/layout.tsx
+// Toaster will also be moved there
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.thehomeceramicsatelier.com'), // IMPORTANT: Change to your actual domain for production
-  title: {
-    default: 'The Home Ceramics Atelier',
-    template: '%s | The Home Ceramics Atelier',
-  },
-  description: 'Discover exquisite luxury porcelain tiles at The Home Ceramics Atelier. Explore our collection for timeless elegance and superior durability.',
+  metadataBase: new URL('https://www.thehomeceramicsatelier.com'), // IMPORTANT: Ensure this is your actual production domain
+  // Default title and description will now be primarily sourced from locale-specific dictionaries
+  // via src/app/[locale]/layout.tsx to allow for better length control per language.
+  // However, a very generic fallback can be here if desired, but it's less critical now.
+  title: 'The Home Ceramics Atelier', // Generic fallback, will be overridden
+  description: 'Luxury porcelain tiles for unique spaces.', // Generic fallback
 };
 
 export default function RootLayout({
@@ -17,17 +17,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html suppressHydrationWarning><head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Sura:wght@400;700&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
-      </head>
-      <body className="min-h-screen bg-background font-body antialiased flex flex-col">
-        {children}
-        <Toaster />
-      </body>
-    </html>
-  );
+  // This root layout now primarily sets up metadataBase and passes children.
+  // The <html> and <body> tags, along with locale-specific lang attribute,
+  // global styles, fonts, and Toaster, will be in src/app/[locale]/layout.tsx.
+  return children;
 }

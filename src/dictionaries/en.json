@@ -1,10 +1,10 @@
 
 {
   "Metadata": {
-    "defaultTitle": "Luxury Porcelain Tiles & Expert Interior Design | TheHomeCeramics",
-    "templateTitle": "%s | The Home Ceramics Atelier",
-    "defaultDescription": "Discover TheHomeCeramics' exquisite collection of premium porcelain tiles. Timeless elegance, unparalleled durability, and unique designs for floors & walls. Elevate your space.",
-    "keywords": ["luxury porcelain tiles", "premium ceramic tiles", "designer tiles", "interior design tiles", "modern floor tiles", "classic wall tiles", "bathroom renovation tiles", "kitchen backsplash tiles", "large format porcelain slabs", "tile showroom", "TheHomeCeramics", "durable tiles", "elegant tiling solutions", "high-end ceramics", "PORCELAIN TILE 60X120 MATT", "BRILLER CHOCO RUBIC tile", "PORCELAIN TILE 60X120 GLOSSY", "GRACIA AQUA RAINBOW tile", "PORCELAIN TILE 60X120 CARVING GROOVE LIGHT", "PORCELANICO 60X120 MATE IN/PUT TERRAZA 1032", "PORCELAIN TILE 60X120 STATUARIO GLOSSY", "PORCELAIN TILE 60X120 BABYCON ROCCIA LUPO"]
+    "defaultTitle": "Luxury Porcelain Tiles | TheHomeCeramics Atelier",
+    "templateTitle": "%s | TheHomeCeramics Atelier",
+    "defaultDescription": "Discover premium porcelain tiles at TheHomeCeramics. Timeless elegance, durability & unique designs for floors & walls. Explore our collection.",
+    "keywords": ["luxury porcelain tiles", "premium ceramic tiles", "designer tiles", "interior design", "modern floor tiles", "classic wall tiles", "TheHomeCeramics"]
   },
   "NavLinks": {
     "home": "Home",
@@ -20,8 +20,8 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Luxury Porcelain Tiles for Elegant Spaces | TheHomeCeramics Atelier",
-      "description": "Explore TheHomeCeramics Atelier's exclusive collection of luxury porcelain tiles. Discover timeless elegance, durability, and unique designs for your interiors and exteriors."
+      "title": "TheHomeCeramics Atelier - Luxury Tiles for Elegant Interiors",
+      "description": "Elevate your home with luxury porcelain tiles from TheHomeCeramics. Discover our exquisite collection for timeless elegance and superior durability in interior design."
     },
     "hero": {
       "title": "Elegance Forged in Porcelain",
@@ -94,8 +94,8 @@
   },
   "AboutPage": {
     "metadata": {
-        "title": "Our Story & Craftsmanship in Porcelain | TheHomeCeramics",
-        "description": "Discover TheHomeCeramics: our mission, values, and passion for luxury porcelain tiles. Quality craftsmanship and sustainable design for exquisite interiors."
+        "title": "Our Story: Crafting Luxury Tiles - TheHomeCeramics",
+        "description": "Discover TheHomeCeramics' journey, mission, and values. Learn about our commitment to quality, design, and sustainable luxury porcelain tiles."
     },
     "titlePrefix": "About",
     "subtitle": "Crafting beauty and elegance, one exceptional tile at a time.",
@@ -108,8 +108,8 @@
   },
   "ContactPage": {
     "metadata": {
-        "title": "Contact for Porcelain Tile Quotes | TheHomeCeramics",
-        "description": "Contact TheHomeCeramics for expert advice on luxury porcelain tiles and project quotes. We help select the perfect tiles for your design vision."
+        "title": "Contact Us: Expert Tile Advice - TheHomeCeramics",
+        "description": "Get in touch with TheHomeCeramics for expert advice, project quotes, and support for your luxury porcelain tile needs. Let's create beautiful spaces."
     },
     "title": "Connect With Us",
     "subtitle": "We're passionate about helping you find the perfect porcelain tiles for your prestigious project. Reach out today!",
@@ -142,8 +142,8 @@
   },
   "ProductsPage": {
     "metadata": {
-        "title": "Luxury Porcelain Tile Collection | TheHomeCeramics",
-        "description": "Full catalog of TheHomeCeramics luxury porcelain tiles. Wide range of styles, finishes & large formats for your interior design project."
+        "title": "Luxury Porcelain Tile Collection - TheHomeCeramics",
+        "description": "Explore the full range of luxury porcelain tiles from TheHomeCeramics. Discover various styles, finishes, and large formats for your design project."
     },
     "title": "Our Exquisite Tile Collection",
     "subtitle": "Elevate your spaces with superior design porcelain tiles. Find inspiration in our collection, synonymous with enduring elegance and maximum resilience."
@@ -158,23 +158,50 @@
   },
   "CatalogsPage": {
     "metadata": {
-      "title": "Download Tile Catalogs | TheHomeCeramics",
-      "description": "Access TheHomeCeramics catalogs: full range of luxury porcelain tiles, specs, and inspiring designs for your projects."
+      "title": "Download Tile Catalogs - TheHomeCeramics",
+      "description": "Access TheHomeCeramics' latest catalogs. Explore our full range of luxury porcelain tiles, specifications, and inspiring designs. Download PDFs now."
     },
     "title": "Our Tile Catalogs",
-    "subtitle": "Browse our digital catalogs for inspiration and detailed product information.",
-    "viewCatalogButton": "View Catalog"
+    "subtitle": "Browse our digital catalogs for inspiration and detailed product information. Download to view offline.",
+    "polishedGlossySectionTitle": "Polished & Glossy Tiles Catalogs",
+    "viewCatalogButton": "View Catalog",
+    "noCatalogs": "No catalogs available at the moment. Please check back soon!"
   },
   "CATALOG_ITEMS_DATA": [
     {
-      "id": "catalog_general_2024",
-      "name": "General Catalog 2024",
-      "description": "Discover our comprehensive collection of porcelain tiles for every style and application. Includes new arrivals and best-sellers."
+      "id": "catalog_600x600_glossy",
+      "name": "600x600mm Glossy Porcelain Tiles Catalog (V2)",
+      "description": "Discover our premium 600x600mm glossy porcelain tile collection (V2). Perfect for modern, luminous interiors, offering high-shine finishes and exceptional durability. Download for design inspiration and to explore styles and colors."
     },
     {
-      "id": "catalog_luxury_collection",
-      "name": "Luxury Collection Showcase",
-      "description": "Explore our premium range of luxury porcelain tiles, featuring exquisite designs and superior craftsmanship for high-end projects."
+      "id": "catalog_600x600_glossy_v1",
+      "name": "600x600mm Glossy Porcelain Tiles - Collection V1",
+      "description": "Dive into Collection V1 of our 600x600mm glossy porcelain tiles. Featuring a curated selection of vibrant colors and patterns, perfect for creating elegant and luminous spaces. Download now for inspiration and technical specifications."
+    },
+    {
+      "id": "catalog_600x600_glossy_endless",
+      "name": "600x600mm Endless Glossy Porcelain Tiles - Vol. 3",
+      "description": "Unveil the 'Endless' collection (Vol. 3) of our 600x600mm glossy porcelain tiles. Featuring continuous patterns for seamless, expansive designs. Download to explore sophisticated options for floors and walls that redefine luxury and space."
+    },
+    {
+      "id": "catalog_600x600_glossy_decore",
+      "name": "600x600mm Decore Mega & Glossy Decor Tiles Catalog",
+      "description": "Explore the Decore Mega series and our exquisite 600x600mm glossy decorative porcelain tiles. Find unique patterns and vibrant designs to create stunning feature walls and artistic spaces. Download now for a world of decorative possibilities."
+    },
+    {
+      "id": "catalog_600x600_bookmatch_glossy",
+      "name": "600x600mm Bookmatch Glossy Porcelain Tiles Catalog",
+      "description": "Discover the art of seamless design with our 600x600mm Bookmatch Glossy Porcelain Tiles. Create stunning, continuous marble-like patterns for luxurious feature walls and floors. Download the catalog for inspiration."
+    },
+    {
+      "id": "catalog_600x600_statuario_glossy",
+      "name": "600x600mm Statuario Glossy Finish Tiles Catalog",
+      "description": "Embrace timeless elegance with our Statuario marble-effect glossy porcelain tiles. This 600x600mm collection offers luxurious high-shine and durability. Download to view the full range and inspire your next project."
+    },
+    {
+      "id": "catalog_600x600_multicolor_glossy",
+      "name": "Vibrant 600x600mm Multicolor Glossy Tiles Catalog",
+      "description": "Unleash creativity with our 600x600mm Multicolor Glossy Porcelain Tiles. Explore a spectrum of vibrant hues and dynamic patterns for unique, statement-making designs. Perfect for adding personality and energy to any space. Download the catalog for dazzling inspiration."
     }
   ],
   "LanguageSwitcher": {
@@ -197,5 +224,3 @@
     "tagline": "Luxury Porcelain Tiles for Discerning Tastes."
   }
 }
-
-    

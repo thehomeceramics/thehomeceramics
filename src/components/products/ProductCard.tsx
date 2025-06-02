@@ -6,14 +6,14 @@ import type { Product } from '@/types';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { MessageCircle, Tag } from 'lucide-react'; // Changed ArrowRight to MessageCircle
+import { MessageCircle, Tag } from 'lucide-react';
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
-import React from 'react'; // Required for Autoplay plugin
+import React from 'react';
 
 interface ProductCardDictionaryTexts {
   materialLabel: string;
@@ -21,12 +21,12 @@ interface ProductCardDictionaryTexts {
   sizeLabel: string;
   styleLabel: string;
   viewDetailsButton: string;
-  whatsappInquiryPrefix: string; // New key for WhatsApp message
+  whatsappInquiryPrefix: string;
 }
 
 interface ProductCardProps {
   product: Product;
-  dictionaryTexts?: ProductCardDictionaryTexts; // Make optional for non-localized pages
+  dictionaryTexts?: ProductCardDictionaryTexts;
 }
 
 export function ProductCard({ product, dictionaryTexts }: ProductCardProps) {
@@ -42,8 +42,8 @@ export function ProductCard({ product, dictionaryTexts }: ProductCardProps) {
     finishLabel: "Finish:",
     sizeLabel: "Size:",
     styleLabel: "Style:",
-    viewDetailsButton: "Contact us on WhatsApp", // Default button text updated
-    whatsappInquiryPrefix: "Hello, I'm interested in:" // Default prefix
+    viewDetailsButton: "Contact us on WhatsApp", // Updated default text
+    whatsappInquiryPrefix: "Hello, I'm interested in:"
   };
 
   const handleWhatsAppInquiry = () => {
@@ -103,18 +103,21 @@ export function ProductCard({ product, dictionaryTexts }: ProductCardProps) {
           <p><strong className="text-foreground/90">{styleLabel}</strong> <Badge variant="secondary">{product.specifications.style}</Badge></p>
         </div>
       </CardContent>
-      <CardFooter className="p-6 pt-0 mt-auto">
+      <CardFooter className="p-6 pt-0 mt-auto flex flex-col md:flex-row md:items-center md:justify-between">
         {product.price && (
-          <div className="flex items-center text-lg font-semibold text-accent mr-4">
+          <div className="flex items-center text-lg font-semibold text-accent mb-2 md:mb-0 md:mr-4">
             <Tag className="h-5 w-5 mr-1" /> {product.price}
           </div>
         )}
-        <Button variant="outline" size="sm" className="ml-auto group" onClick={handleWhatsAppInquiry}>
-          {viewDetailsButton} <MessageCircle className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+        <Button 
+          variant="outline" 
+          size="sm" 
+          className="w-full md:w-auto group h-auto py-2 min-h-9" // Applied min-h-9 for consistency with original sm button height, h-auto and py-2 for flexibility
+          onClick={handleWhatsAppInquiry}
+        >
+          {viewDetailsButton} <MessageCircle className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform flex-shrink-0" />
         </Button>
       </CardFooter>
     </Card>
   );
 }
-
-    
