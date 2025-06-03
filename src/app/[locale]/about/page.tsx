@@ -7,10 +7,12 @@ import { CheckCircle, Award, Users, Target } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { getDictionary } from '@/lib/getDictionary';
 
+const defaultLocale = 'es';
+
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const dict = await getDictionary(locale);
   const pageDict = dict.AboutPage?.metadata || {};
-  const companyInfo = dict.COMPANY_INFO || COMPANY_INFO; // Use translated or fallback
+  const companyInfo = dict.COMPANY_INFO || COMPANY_INFO; 
   const navLinks = dict.NavLinks || {};
   
   return {
@@ -22,7 +24,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
         'en': '/en/about',
         'es': '/es/about',
         'fr': '/fr/about',
-        'x-default': `/es/about`,
+        'x-default': `/${defaultLocale}/about`,
       },
     },
   };
@@ -112,5 +114,3 @@ export default async function AboutPage({ params: { locale } }: { params: { loca
     </div>
   );
 }
-
-    

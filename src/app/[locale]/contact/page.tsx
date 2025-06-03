@@ -7,6 +7,8 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { getDictionary } from '@/lib/getDictionary';
 
+const defaultLocale = 'es';
+
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const dict = await getDictionary(locale);
   const pageDict = dict.ContactPage?.metadata || {};
@@ -22,7 +24,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
         'en': '/en/contact',
         'es': '/es/contact',
         'fr': '/fr/contact',
-        'x-default': `/es/contact`,
+        'x-default': `/${defaultLocale}/contact`,
       },
     },
   };
@@ -112,5 +114,3 @@ export default async function ContactPage({ params: { locale } }: { params: { lo
     </div>
   );
 }
-
-    

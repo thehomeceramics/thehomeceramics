@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import { getDictionary, type Dictionary } from '@/lib/getDictionary';
 import HomePageClient from '@/components/home/HomePageClient';
 
+const defaultLocale = 'es';
+
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const dict = await getDictionary(locale);
   const homeMeta = dict.HomePage?.metadata || {};
@@ -16,7 +18,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
         'en': '/en',
         'es': '/es',
         'fr': '/fr',
-        'x-default': '/es', 
+        'x-default': `/${defaultLocale}`, 
       },
     },
   };
@@ -26,11 +28,10 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 export default async function HomePageContainer({ params: { locale } }: { params: { locale: string } }) {
   const dictionary = await getDictionary(locale);
   
-  // Ensure all expected parts of the dictionary are passed
   const homePageDict = dictionary.HomePage || {};
   const companyInfoDict = dictionary.COMPANY_INFO || {};
   const navLinksDict = dictionary.NavLinks || {};
-  const productsData = dictionary.PRODUCTS_DATA || []; // For product names/descriptions if translated
+  const productsData = dictionary.PRODUCTS_DATA || []; 
   const productCardTexts = dictionary.ProductCard || {
     materialLabel: "Material:",
     finishLabel: "Finish:",

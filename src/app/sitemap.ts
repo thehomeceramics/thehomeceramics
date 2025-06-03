@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 
 const locales = ['en', 'es', 'fr'];
 // Ensure this is your correct production domain and matches metadataBase
-const siteUrl = 'https://www.thehomeceramicsatelier.com';
+const siteUrl = 'https://www.thehomeceramics.com'; // Corrected domain
 
 // Define common pages that exist for all locales
 // Ensure these paths are correct and exist.

@@ -3,7 +3,7 @@
   "Metadata": {
     "defaultTitle": "Porcelánicos de Lujo | TheHomeCeramics Atelier",
     "templateTitle": "%s | The Home Ceramics Atelier",
-    "defaultDescription": "Descubra porcelánicos de lujo en TheHomeCeramics. Elegancia, durabilidad y diseños únicos para suelos y paredes. Explore nuestra colección.",
+    "defaultDescription": "Descubra porcelánicos de lujo en TheHomeCeramics. Elegancia, durabilidad y diseños únicos para suelos y paredes. Explore colección.",
     "keywords": ["porcelánicos de lujo", "baldosas cerámicas premium", "azulejos de diseño", "diseño de interiores", "pavimentos modernos", "revestimientos clásicos", "TheHomeCeramics"]
   },
   "NavLinks": {
@@ -21,7 +21,7 @@
   "HomePage": {
     "metadata": {
       "title": "TheHomeCeramics Atelier - Porcelánicos de Lujo para Interiores",
-      "description": "Eleve su hogar con porcelánicos de lujo de TheHomeCeramics. Descubra nuestra exquisita colección para elegancia atemporal y durabilidad superior en diseño de interiores."
+      "description": "Porcelánicos de lujo TheHomeCeramics. Elegancia atemporal, durabilidad superior para diseño interior. Descubra la colección."
     },
     "hero": {
       "title": "Elegancia Forjada en Porcelana",
@@ -112,7 +112,7 @@
         "description": "Contacte con TheHomeCeramics para asesoramiento experto, presupuestos y soporte para sus necesidades de porcelánicos de lujo. Creamos espacios hermosos."
     },
     "title": "Conéctese con Nosotros",
-    "subtitle": "Nos apasiona ayudarle a encontrar los azulejos de porcelana perfectos para su prestigioso proyecto. ¡Contáctenos hoy!",
+    "subtitle": "Nos apasiona ayudarle a encontrar los porcelánicos perfectos. Contáctenos para consultas personales o profesionales.",
     "formTitle": "Envíenos un Mensaje",
     "contactInfoTitle": "Información de Contacto",
     "emailUs": "Envíenos un Email",
@@ -127,13 +127,25 @@
     "form": {
       "successMessage": "¡Gracias por su mensaje! Nos pondremos en contacto con usted en breve.",
       "validationFailed": "El envío del formulario falló. Por favor revise los campos resaltados e inténtelo de nuevo.",
+      "professionalProfileLabel": "Perfil Profesional / Tipo de Consulta",
+      "profileOptions": {
+        "distributor": "Distribuidor / Mayorista",
+        "architect": "Arquitecto / Diseñador",
+        "private": "Cliente Particular",
+        "other": "Otro"
+      },
       "errors": {
         "nameRequired": "El nombre completo debe tener al menos 2 caracteres.",
         "emailInvalid": "Por favor ingrese una dirección de correo electrónico válida.",
+        "phoneRequired": "El número de teléfono es obligatorio.",
+        "phoneInvalid": "Formato de número de teléfono inválido.",
         "subjectRequired": "El asunto debe tener al menos 5 caracteres.",
-        "messageRequired": "Su mensaje debe contener al menos 10 caracteres."
+        "messageRequired": "Su mensaje debe contener al menos 10 caracteres.",
+        "profileRequired": "Por favor seleccione su tipo de perfil."
       }
-    }
+    },
+    "b2bCtaButtonProducts": "Solicitar Precios para Profesionales",
+    "b2bCtaButtonCatalogs": "Consulta Profesional Catálogos"
   },
   "CONTACT_DETAILS": {
     "email": "bilal@thehomeceramics.com, ismail@thehomeceramics.com",
@@ -162,10 +174,24 @@
       "description": "Acceda a los últimos catálogos de TheHomeCeramics. Explore nuestra gama completa de porcelánicos de lujo, especificaciones y diseños inspiradores. Descargue PDFs ahora."
     },
     "title": "Nuestros Catálogos de Azulejos",
-    "subtitle": "Explore nuestros catálogos digitales para obtener inspiración e información detallada de productos. Descargue para ver sin conexión.",
+    "subtitle": "Explore nuestros catálogos digitales para obtener inspiración e información detallada de productos.",
     "polishedGlossySectionTitle": "Catálogos de Porcelánicos Pulidos y Brillantes",
-    "viewCatalogButton": "Ver Catálogo",
-    "noCatalogs": "No hay catálogos disponibles en este momento. ¡Por favor, vuelva a consultar pronto!"
+    "viewCatalogButton": "Solicitar Catálogo",
+    "noCatalogs": "No hay catálogos disponibles en este momento. ¡Por favor, vuelva a consultar pronto!",
+    "downloadForm": {
+      "title": "Descargar {catalogName}",
+      "description": "Por favor, complete sus datos para recibir el enlace de descarga del catálogo.",
+      "nameLabel": "Nombre Completo",
+      "emailLabel": "Correo Electrónico",
+      "submitButtonText": "Obtener Catálogo",
+      "submitting": "Solicitando...",
+      "successTitle": "¡Gracias!",
+      "successMessage": "Tu catálogo está listo. Haz clic en el botón de abajo para abrirlo.",
+      "downloadLinkText": "Abrir Catálogo",
+      "closeButton": "Cerrar",
+      "errorTitle": "Solicitud Fallida",
+      "validationFailed": "Por favor, revise el formulario por errores e inténtelo de nuevo."
+    }
   },
   "CATALOG_ITEMS_DATA": [
     {
@@ -224,3 +250,5 @@
     "tagline": "Azulejos de Porcelana de Lujo para Gustos Exigentes."
   }
 }
+
+    

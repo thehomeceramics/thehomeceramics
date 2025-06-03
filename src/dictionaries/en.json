@@ -3,7 +3,7 @@
   "Metadata": {
     "defaultTitle": "Luxury Porcelain Tiles | TheHomeCeramics Atelier",
     "templateTitle": "%s | TheHomeCeramics Atelier",
-    "defaultDescription": "Discover premium porcelain tiles at TheHomeCeramics. Timeless elegance, durability & unique designs for floors & walls. Explore our collection.",
+    "defaultDescription": "Discover premium porcelain tiles at TheHomeCeramics. Timeless elegance, durability & unique designs for floors & walls. Explore collection.",
     "keywords": ["luxury porcelain tiles", "premium ceramic tiles", "designer tiles", "interior design", "modern floor tiles", "classic wall tiles", "TheHomeCeramics"]
   },
   "NavLinks": {
@@ -21,7 +21,7 @@
   "HomePage": {
     "metadata": {
       "title": "TheHomeCeramics Atelier - Luxury Tiles for Elegant Interiors",
-      "description": "Elevate your home with luxury porcelain tiles from TheHomeCeramics. Discover our exquisite collection for timeless elegance and superior durability in interior design."
+      "description": "Elevate your home with luxury porcelain tiles from TheHomeCeramics. Discover our exquisite collection for timeless elegance and superior durability."
     },
     "hero": {
       "title": "Elegance Forged in Porcelain",
@@ -112,7 +112,7 @@
         "description": "Get in touch with TheHomeCeramics for expert advice, project quotes, and support for your luxury porcelain tile needs. Let's create beautiful spaces."
     },
     "title": "Connect With Us",
-    "subtitle": "We're passionate about helping you find the perfect porcelain tiles for your prestigious project. Reach out today!",
+    "subtitle": "We're passionate about helping you find the perfect porcelain tiles. Reach out for personal or professional inquiries.",
     "formTitle": "Send Us a Message",
     "contactInfoTitle": "Contact Information",
     "emailUs": "Email Us",
@@ -127,13 +127,25 @@
     "form": {
       "successMessage": "Thank you for your message! We will be in touch with you shortly.",
       "validationFailed": "Form submission failed. Please review the highlighted fields and try again.",
+      "professionalProfileLabel": "Professional Profile / Inquiry Type",
+      "profileOptions": {
+        "distributor": "Distributor / Wholesaler",
+        "architect": "Architect / Designer",
+        "private": "Private Customer",
+        "other": "Other"
+      },
       "errors": {
         "nameRequired": "Full name must be at least 2 characters.",
         "emailInvalid": "Please enter a valid email address.",
+        "phoneRequired": "Phone number is required.",
+        "phoneInvalid": "Invalid phone number format.",
         "subjectRequired": "Subject line must be at least 5 characters.",
-        "messageRequired": "Your message must contain at least 10 characters."
+        "messageRequired": "Your message must contain at least 10 characters.",
+        "profileRequired": "Please select your profile type."
       }
-    }
+    },
+    "b2bCtaButtonProducts": "Request Professional Pricing",
+    "b2bCtaButtonCatalogs": "Professional Catalog Inquiry"
   },
   "CONTACT_DETAILS": {
     "email": "bilal@thehomeceramics.com, ismail@thehomeceramics.com",
@@ -162,10 +174,24 @@
       "description": "Access TheHomeCeramics' latest catalogs. Explore our full range of luxury porcelain tiles, specifications, and inspiring designs. Download PDFs now."
     },
     "title": "Our Tile Catalogs",
-    "subtitle": "Browse our digital catalogs for inspiration and detailed product information. Download to view offline.",
+    "subtitle": "Browse our digital catalogs for inspiration and detailed product information.",
     "polishedGlossySectionTitle": "Polished & Glossy Tiles Catalogs",
-    "viewCatalogButton": "View Catalog",
-    "noCatalogs": "No catalogs available at the moment. Please check back soon!"
+    "viewCatalogButton": "Request Catalog",
+    "noCatalogs": "No catalogs available at the moment. Please check back soon!",
+    "downloadForm": {
+      "title": "Download {catalogName}",
+      "description": "Please fill in your details to receive the download link for the catalog.",
+      "nameLabel": "Full Name",
+      "emailLabel": "Email Address",
+      "submitButtonText": "Get Catalog",
+      "submitting": "Requesting...",
+      "successTitle": "Thank You!",
+      "successMessage": "Your catalog is ready. Click the button below to open it.",
+      "downloadLinkText": "Open Catalog",
+      "closeButton": "Close",
+      "errorTitle": "Request Failed",
+      "validationFailed": "Please check the form for errors and try again."
+    }
   },
   "CATALOG_ITEMS_DATA": [
     {

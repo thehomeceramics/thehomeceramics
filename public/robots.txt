@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.thehomeceramicsatelier.com/sitemap.xml
+Sitemap: https://www.thehomeceramics.com/sitemap.xml

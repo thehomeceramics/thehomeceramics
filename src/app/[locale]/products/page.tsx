@@ -5,6 +5,11 @@ import { SectionTitle } from '@/components/shared/SectionTitle';
 import { PRODUCTS } from '@/lib/data'; 
 import { getDictionary } from '@/lib/getDictionary';
 import type { Product } from '@/types'; 
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
+import { Briefcase } from 'lucide-react'; // Changed from Info to Briefcase or similar for B2B
+
+const defaultLocale = 'es';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const dict = await getDictionary(locale);
@@ -21,7 +26,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
         'en': '/en/products',
         'es': '/es/products',
         'fr': '/fr/products',
-        'x-default': `/es/products`,
+        'x-default': `/${defaultLocale}/products`,
       },
     },
   };
@@ -38,6 +43,7 @@ export default async function ProductsPage({ params: { locale } }: { params: { l
     viewDetailsButton: "Contact us on WhatsApp",
     whatsappInquiryPrefix: "Hello, I'm interested in:" 
   };
+  const contactPageTexts = dict.ContactPage || {};
 
   const localizedProducts = PRODUCTS.map(fallbackProduct => {
     const translatedData = dict.PRODUCTS_DATA?.find((p: any) => p.id === fallbackProduct.id);
@@ -55,6 +61,18 @@ export default async function ProductsPage({ params: { locale } }: { params: { l
         title={t?.title || "Our Exquisite Tile Collection"}
         subtitle={t?.subtitle || "Discover the perfect porcelain tiles to elevate your space."}
       />
+      
+      {contactPageTexts.b2bCtaButtonProducts && (
+        <div className="my-8 text-center">
+          <Button asChild size="lg" variant="default" className="shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <Link href={`/${locale}/contact`}>
+              <Briefcase className="mr-2 h-5 w-5" /> 
+              {contactPageTexts.b2bCtaButtonProducts}
+            </Link>
+          </Button>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {localizedProducts.map((product: Product, index: number) => ( 
           <div 
@@ -69,5 +87,4 @@ export default async function ProductsPage({ params: { locale } }: { params: { l
     </div>
   );
 }
-
     

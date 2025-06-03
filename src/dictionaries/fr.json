@@ -3,7 +3,7 @@
   "Metadata": {
     "defaultTitle": "Carreaux de Porcelaine Luxe | TheHomeCeramics",
     "templateTitle": "%s | The Home Ceramics Atelier",
-    "defaultDescription": "Découvrez les carreaux de porcelaine TheHomeCeramics. Élégance, durabilité et designs uniques pour sols et murs. Explorez notre collection.",
+    "defaultDescription": "Découvrez les carreaux de porcelaine TheHomeCeramics. Élégance, durabilité et designs uniques pour sols et murs. Explorez collection.",
     "keywords": ["carreaux de porcelaine luxe", "carrelage céramique premium", "carreaux designer", "design intérieur", "carrelage sol moderne", "carrelage mural classique", "TheHomeCeramics"]
   },
   "NavLinks": {
@@ -21,7 +21,7 @@
   "HomePage": {
     "metadata": {
       "title": "TheHomeCeramics Atelier - Carreaux de Luxe pour Intérieurs Élégants",
-      "description": "Sublimez votre intérieur avec les carreaux de porcelaine de luxe de TheHomeCeramics. Découvrez notre collection exquise pour une élégance intemporelle et une durabilité supérieure."
+      "description": "Sublimez votre intérieur avec les carreaux de porcelaine de luxe de TheHomeCeramics. Découvrez notre collection exquise pour une élégance intemporelle."
     },
     "hero": {
       "title": "L'Élégance Forgée en Porcelaine",
@@ -112,7 +112,7 @@
         "description": "Contactez TheHomeCeramics pour des conseils d'experts, devis et assistance pour vos besoins en carreaux de porcelaine de luxe. Créons de beaux espaces."
     },
     "title": "Connectez-vous avec Nous",
-    "subtitle": "Nous sommes passionnés par l'idée de vous aider à trouver les carreaux de porcelaine parfaits pour votre projet prestigieux. Contactez-nous dès aujourd'hui !",
+    "subtitle": "Nous aidons à trouver les carreaux parfaits. Contactez-nous pour demandes personnelles ou professionnelles.",
     "formTitle": "Envoyez-Nous un Message",
     "contactInfoTitle": "Coordonnées",
     "emailUs": "Envoyez-nous un E-mail",
@@ -127,13 +127,25 @@
     "form": {
       "successMessage": "Merci pour votre message ! Nous vous contacterons sous peu.",
       "validationFailed": "L'envoi du formulaire a échoué. Veuillez vérifier les champs en surbrillance et réessayer.",
+      "professionalProfileLabel": "Profil Professionnel / Type de Demande",
+      "profileOptions": {
+        "distributor": "Distributeur / Grossiste",
+        "architect": "Architecte / Designer",
+        "private": "Client Particulier",
+        "other": "Autre"
+      },
       "errors": {
         "nameRequired": "Le nom complet doit comporter au moins 2 caractères.",
         "emailInvalid": "Veuillez saisir une adresse e-mail valide.",
+        "phoneRequired": "Le numéro de téléphone est requis.",
+        "phoneInvalid": "Format de numéro de téléphone invalide.",
         "subjectRequired": "L'objet doit comporter au moins 5 caractères.",
-        "messageRequired": "Votre message doit contenir au moins 10 caractères."
+        "messageRequired": "Votre message doit contenir au moins 10 caractères.",
+        "profileRequired": "Veuillez sélectionner votre type de profil."
       }
-    }
+    },
+    "b2bCtaButtonProducts": "Demander Prix Professionnels",
+    "b2bCtaButtonCatalogs": "Demande Professionnelle Catalogues"
   },
   "CONTACT_DETAILS": {
     "email": "bilal@thehomeceramics.com, ismail@thehomeceramics.com",
@@ -162,10 +174,24 @@
       "description": "Accédez aux derniers catalogues TheHomeCeramics. Explorez notre gamme complète de carreaux de porcelaine de luxe, spécifications et designs inspirants. Téléchargez les PDF."
     },
     "title": "Nos Catalogues de Carreaux",
-    "subtitle": "Parcourez nos catalogues numériques pour trouver l'inspiration et des informations détaillées sur les produits. Téléchargez pour consulter hors ligne.",
+    "subtitle": "Parcourez nos catalogues numériques pour trouver l'inspiration et des informations détaillées sur les produits.",
     "polishedGlossySectionTitle": "Catalogues de Carreaux de Porcelaine Polis et Brillants",
-    "viewCatalogButton": "Voir le Catalogue",
-    "noCatalogs": "Aucun catalogue disponible pour le moment. Veuillez revenir bientôt !"
+    "viewCatalogButton": "Demander le Catalogue",
+    "noCatalogs": "Aucun catalogue disponible pour le moment. Veuillez revenir bientôt !",
+    "downloadForm": {
+      "title": "Télécharger {catalogName}",
+      "description": "Veuillez remplir vos coordonnées pour recevoir le lien de téléchargement du catalogue.",
+      "nameLabel": "Nom Complet",
+      "emailLabel": "Adresse E-mail",
+      "submitButtonText": "Obtenir le Catalogue",
+      "submitting": "Demande en cours...",
+      "successTitle": "Merci !",
+      "successMessage": "Votre catalogue est prêt. Cliquez sur le bouton ci-dessous pour l'ouvrir.",
+      "downloadLinkText": "Ouvrir le Catalogue",
+      "closeButton": "Fermer",
+      "errorTitle": "Échec de la Demande",
+      "validationFailed": "Veuillez vérifier les erreurs du formulaire et réessayer."
+    }
   },
   "CATALOG_ITEMS_DATA": [
     {
